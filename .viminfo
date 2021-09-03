@@ -21,7 +21,7 @@ $/home/xonotic
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1630672685,,"wq"
+|2,0,1630673347,,"wq"
 :q
 |2,0,1630671859,,"q"
 :qw
@@ -128,36 +128,54 @@ $/home/xonotic
 |3,0,36,0,1,0,1630436485,"git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m \".\"; git push"
 
 # File marks:
-'0  4  12  ~/.gitignore
-|4,48,4,12,1630672685,"~/.gitignore"
-'1  7  69  ~/.git/config
-|4,49,7,69,1630672525,"~/.git/config"
-'2  274  0  ~/.zsh_history
-|4,50,274,0,1630672325,"~/.zsh_history"
-'3  7  50  ~/.git/config
-|4,51,7,50,1630671859,"~/.git/config"
-'4  6  10  ~/.gitignore
-|4,52,6,10,1630671838,"~/.gitignore"
-'5  5  10  ~/.gitignore
-|4,53,5,10,1630671838,"~/.gitignore"
-'6  78  0  ~/www/index.html
-|4,54,78,0,1630671746,"~/www/index.html"
-'7  54  0  ~/www/index.html
-|4,55,54,0,1630671527,"~/www/index.html"
-'8  54  0  ~/www/index.html
-|4,56,54,0,1630671527,"~/www/index.html"
-'9  7  50  ~/.git/config
-|4,57,7,50,1630668936,"~/.git/config"
+'0  9  7  ~/.gitignore
+|4,48,9,7,1630673347,"~/.gitignore"
+'1  4  12  ~/.gitignore
+|4,49,4,12,1630672685,"~/.gitignore"
+'2  4  12  ~/.gitignore
+|4,50,4,12,1630672685,"~/.gitignore"
+'3  7  69  ~/.git/config
+|4,51,7,69,1630672525,"~/.git/config"
+'4  274  0  ~/.zsh_history
+|4,52,274,0,1630672325,"~/.zsh_history"
+'5  7  50  ~/.git/config
+|4,53,7,50,1630671859,"~/.git/config"
+'6  6  10  ~/.gitignore
+|4,54,6,10,1630671838,"~/.gitignore"
+'7  5  10  ~/.gitignore
+|4,55,5,10,1630671838,"~/.gitignore"
+'8  6  10  ~/.gitignore
+|4,56,6,10,1630671838,"~/.gitignore"
+'9  5  10  ~/.gitignore
+|4,57,5,10,1630671838,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
 -'  4  12  ~/.gitignore
 |4,39,4,12,1630672685,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
 -'  6  10  ~/.gitignore
 |4,39,6,10,1630672669,"~/.gitignore"
 -'  7  69  ~/.git/config
 |4,39,7,69,1630672525,"~/.git/config"
 -'  7  69  ~/.git/config
 |4,39,7,69,1630672525,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630672525,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630672525,"~/.git/config"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630672325,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630672325,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630672325,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630672325,"~/.zsh_history"
 -'  274  0  ~/.zsh_history
 |4,39,274,0,1630672325,"~/.zsh_history"
 -'  274  0  ~/.zsh_history
@@ -174,6 +192,22 @@ $/home/xonotic
 |4,39,49,0,1630672319,"~/.zsh_history"
 -'  49  0  ~/.zsh_history
 |4,39,49,0,1630672319,"~/.zsh_history"
+-'  49  0  ~/.zsh_history
+|4,39,49,0,1630672319,"~/.zsh_history"
+-'  49  0  ~/.zsh_history
+|4,39,49,0,1630672319,"~/.zsh_history"
+-'  49  0  ~/.zsh_history
+|4,39,49,0,1630672319,"~/.zsh_history"
+-'  49  0  ~/.zsh_history
+|4,39,49,0,1630672319,"~/.zsh_history"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630671859,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630671859,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630671859,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630671859,"~/.git/config"
 -'  7  50  ~/.git/config
 |4,39,7,50,1630671859,"~/.git/config"
 -'  7  50  ~/.git/config
@@ -198,6 +232,12 @@ $/home/xonotic
 |4,39,5,10,1630671838,"~/.gitignore"
 -'  5  10  ~/.gitignore
 |4,39,5,10,1630671838,"~/.gitignore"
+-'  5  10  ~/.gitignore
+|4,39,5,10,1630671838,"~/.gitignore"
+-'  11  6  ~/.gitignore
+|4,39,11,6,1630671802,"~/.gitignore"
+-'  10  6  ~/.gitignore
+|4,39,10,6,1630671802,"~/.gitignore"
 -'  8  6  ~/.gitignore
 |4,39,8,6,1630671802,"~/.gitignore"
 -'  7  6  ~/.gitignore
@@ -280,94 +320,56 @@ $/home/xonotic
 |4,39,78,0,1630671746,"~/www/index.html"
 -'  78  0  ~/www/index.html
 |4,39,78,0,1630671746,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  63  0  ~/www/index.html
-|4,39,63,0,1630671638,"~/www/index.html"
--'  81  8  ~/www/index.html
-|4,39,81,8,1630671637,"~/www/index.html"
--'  81  8  ~/www/index.html
-|4,39,81,8,1630671637,"~/www/index.html"
--'  81  8  ~/www/index.html
-|4,39,81,8,1630671637,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1630672685	0
-	"	4	12
-	^	4	13
-	.	4	12
+	*	1630673347	0
+	"	9	7
+	^	9	8
+	.	9	7
 	+	1	10
 	+	2	18
 	+	3	19
 	+	5	24
-	+	7	11
-	+	8	6
+	+	10	11
+	+	11	6
 	+	6	10
 	+	3	15
 	+	4	15
 	+	4	12
+	+	10	0
+	+	9	7
 
 > ~/.git/config
 	*	1630672524	0

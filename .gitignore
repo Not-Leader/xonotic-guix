@@ -4,5 +4,8 @@
 .xonotic/lock
 .xonotic/data/secret.cfg
 .zcompdump*
+.wget*
+.profile
+.lesshst
 xonotic.log
 Xonotic
