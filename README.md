@@ -13,7 +13,7 @@ Instructions
 
 Prepare the system. Install packages, setup xonotic user, use zsh:
 ```
-apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql git
+apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql git rsync
 
 # Oh my Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -47,7 +47,7 @@ Download the maps and server config from my github repository:
 ```
 git clone https://github.com/ballerburg9005/xonotic.us.to
  
-mv xonotic.us.to/* xonotic.us.to/.* ./
+rsync -ra xonotic.us.to/ ./
 chmod 700 /home/xonotic/.xonotic/data/data
 rm -r xonotic.us.to
 ```
