@@ -45,17 +45,15 @@ WantedBy=graphical.target #check target by running: systemctl get-default
 <br>
 Prepare the system: install packages, setup xonotic user, lighttpd for fast pk3 download and zsh :<p>
 <pre style="background-color: #EEE; padding: 20px">
-apt install unzip zsh curl wget screen php7.4-fpm lighttpd vim 
+apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql
 
 # Oh my Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# this is not really needed, php-fpm is also not really needed
-mv /etc/lighttpd/conf-available/10-dir-listing.conf /etc/lighttpd/conf-available/10-fastcgi.conf /etc/lighttpd/conf-available/10-rewrite.conf /etc/lighttpd/conf-enabled/
+lighty-enable-mod fastcgi fastcgi-php dir-listing rewrite
 
 systemctl daemon-reload
-systemctl enable xonotic
-systemctl enable lighttpd
+systemctl enable xonotic lighttd 
 systemctl start lighttpd
 
 useradd -u 9005 -m xonotic -G root,audio -g www-data -s `which zsh`

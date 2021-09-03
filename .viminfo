@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/author
+~MSle0~/ln -s
 
 # Last Substitute Search Pattern:
 ~MSle0&\$HOME
@@ -20,12 +20,14 @@
 $/home/xonotic
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1630668936,,"q"
-:w
-|2,0,1630668548,,"w"
 :wq
-|2,0,1630440482,,"wq"
+|2,0,1630671838,,"wq"
+:q
+|2,0,1630671746,,"q"
+:qw
+|2,0,1630671745,,"qw"
+:w
+|2,0,1630671735,,"w"
 :2w
 |2,0,1630432639,,"2w"
 :0,$s#\$HOME#/home/xonotic#g
@@ -36,6 +38,14 @@ $/home/xonotic
 |2,0,1630430656,,"eqw"
 
 # Search String History (newest to oldest):
+?/ln -s
+|2,1,1630671631,47,"ln -s"
+?/lighty
+|2,1,1630671491,47,"lighty"
+?/light
+|2,1,1630671489,47,"light"
+?/apt
+|2,1,1630670564,47,"apt"
 ?/author
 |2,1,1630434399,47,"author"
 ?/>
@@ -72,12 +82,24 @@ $/home/xonotic
 	<pre style="background-color: #EEE; padding: 20px">
 |3,0,0,1,1,0,1630436472,"<pre style=\"background-color: #EEE; padding: 20px\">"
 ""1	LINE	0
-	sys_ticrate 0.0242424
-|3,1,1,1,1,0,1630614459,"sys_ticrate 0.0242424"
+	# this is not really needed, php-fpm is also not really needed
+|3,1,1,1,1,0,1630671507,"# this is not really needed, php-fpm is also not really needed"
 "2	LINE	0
-	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
-|3,0,2,1,1,0,1630614436,"sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
+	mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/
+|3,0,2,1,1,0,1630671379,"mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/"
 "3	LINE	0
+	cd /etc/lighttpd/conf-available/
+|3,0,3,1,1,0,1630671379,"cd /etc/lighttpd/conf-available/"
+"4	LINE	0
+	systemctl enable xonotic 
+|3,0,4,1,1,0,1630670823,"systemctl enable xonotic "
+"5	LINE	0
+	sys_ticrate 0.0242424
+|3,0,5,1,1,0,1630614459,"sys_ticrate 0.0242424"
+"6	LINE	0
+	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
+|3,0,6,1,1,0,1630614436,"sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
+"7	LINE	0
 	315
 <//g_maplist "revdm3pro curse_v2 spaceapple bloodrun quark toxic_fabric deck_v2 romi stone_sea revolter limbo tuhma revrem thehighestground epsilon-b5 resist-desaturation Fjo3tourney2_nex_r1 79drgc2 Bal3dm4_nex_r1 CMP1-dm6 acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1"
 	607
@@ -90,61 +112,153 @@ $/home/xonotic
 	g_maxplayers 16
 	sv_vote_gametype 1
 	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
-|3,0,3,1,10,0,1630614413,"//g_maplist \"revdm3pro curse_v2 spaceapple bloodrun quark toxic_fabric deck_v2 romi stone_sea revolter limbo tuhma revrem thehighestground epsilon-b5 resist-desaturation Fjo3tourney2_nex_r1 79drgc2 Bal3dm4_nex_r1 CMP1-dm6 acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1\"",>608
+|3,0,7,1,10,0,1630614413,"//g_maplist \"revdm3pro curse_v2 spaceapple bloodrun quark toxic_fabric deck_v2 romi stone_sea revolter limbo tuhma revrem thehighestground epsilon-b5 resist-desaturation Fjo3tourney2_nex_r1 79drgc2 Bal3dm4_nex_r1 CMP1-dm6 acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1\"",>608
 |<"g_maplist \"79drgc2 Bal3dm4_nex_r1 CMP1-dm6 Fjo3tourney2_nex_r1 abyss acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1 cht2_nex_r1 cht3_nex_r1 curse_v2 deck_v2 dieselpower distonic dm_nexdm3 docs_cyber_core_insta dsi dubneoc ek3dm1_nex_r1 fr3dm1_nex_r1 g-23 geo-core hub3aeroq3a_nex_r1 ikzdm1 kaznexdm1 klzegypt lightspeed lun3dm4_nex_r1 epsilon-b5 limbo revrem stone_sea newtonian-nightmare peasants_palace q3dm17ish quark_v4 breathium red-planet r
 |<esist-desaturation revdm3pro rom spaceapple-v2 straledm5 thehighestground toxic_fabric tuhma cubes-x03-r02_melano1\"","sv_curl_defaulturl \"http://xonotic.us.to/xonotic/\"","sv_maxrate 1000000","sys_ticrate 0.0242424","gametype dm","fraglimit 32","g_maxplayers 16","sv_vote_gametype 1","sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
-"4	LINE	0
+"8	LINE	0
 	sv_weaponstats_file "http://www.xonotic.org/weaponbalance/"
 	
 	exec "secret.cfg" // contains just rcon_password
-|3,0,4,1,3,0,1630614390,"sv_weaponstats_file \"http://www.xonotic.org/weaponbalance/\"","","exec \"secret.cfg\" // contains just rcon_password"
-"5	LINE	0
+|3,0,8,1,3,0,1630614390,"sv_weaponstats_file \"http://www.xonotic.org/weaponbalance/\"","","exec \"secret.cfg\" // contains just rcon_password"
+"9	LINE	0
 	sv_weaponstats_file "http://www.xonotic.org/weaponbalance/"
 	
 	exec "secret.cfg" // contains just rcon_password
 	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
-|3,0,5,1,4,0,1630614386,"sv_weaponstats_file \"http://www.xonotic.org/weaponbalance/\"","","exec \"secret.cfg\" // contains just rcon_password","sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
-"6	LINE	0
-	exec "secret.cfg" // contains just rcon_password
-|3,0,6,1,1,0,1630614382,"exec \"secret.cfg\" // contains just rcon_password"
-"7	LINE	0
-	sv_weaponstats_file "http://www.xonotic.org/weaponbalance/"
-|3,0,7,1,1,0,1630614380,"sv_weaponstats_file \"http://www.xonotic.org/weaponbalance/\""
-"8	LINE	0
-	: 1630435961:0;git remote get-url origin
-|3,0,8,1,1,0,1630436035,": 1630435961:0;git remote get-url origin"
-"9	LINE	0
-	: 1630435935:0;git remote set-url origin "https://xonotic-server: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@github.com/ballerburg9005/xonotic.us.to"
-|3,0,9,1,1,0,1630436033,": 1630435935:0;git remote set-url origin \"https://xonotic-server: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@github.com/ballerburg9005/xonotic.us.to\""
+|3,0,9,1,4,0,1630614386,"sv_weaponstats_file \"http://www.xonotic.org/weaponbalance/\"","","exec \"secret.cfg\" // contains just rcon_password","sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
 "-	CHAR	0
 	git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
 |3,0,36,0,1,0,1630436485,"git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m \".\"; git push"
 
 # File marks:
-'0  7  50  ~/.git/config
-|4,48,7,50,1630668936,"~/.git/config"
-'1  7  69  ~/.git/config
-|4,49,7,69,1630668549,"~/.git/config"
-'2  2  0  ~/.gitconfig
-|4,50,2,0,1630668503,"~/.gitconfig"
-'3  8  11  ~/.xonotic/data/server.cfg
-|4,51,8,11,1630631994,"~/.xonotic/data/server.cfg"
-'4  7  2  ~/.xonotic/data/server.cfg
-|4,52,7,2,1630618786,"~/.xonotic/data/server.cfg"
-'5  7  2  ~/.xonotic/data/server.cfg
-|4,53,7,2,1630618786,"~/.xonotic/data/server.cfg"
-'6  6  6  ~/.gitignore
-|4,54,6,6,1630440482,"~/.gitignore"
-'7  157  46  ~/www/index.html
-|4,55,157,46,1630437123,"~/www/index.html"
-'8  159  34  ~/www/index.html
-|4,56,159,34,1630436816,"~/www/index.html"
-'9  159  34  ~/www/index.html
-|4,57,159,34,1630436816,"~/www/index.html"
+'0  5  10  ~/.gitignore
+|4,48,5,10,1630671838,"~/.gitignore"
+'1  78  0  ~/www/index.html
+|4,49,78,0,1630671746,"~/www/index.html"
+'2  54  0  ~/www/index.html
+|4,50,54,0,1630671527,"~/www/index.html"
+'3  54  0  ~/www/index.html
+|4,51,54,0,1630671527,"~/www/index.html"
+'4  7  50  ~/.git/config
+|4,52,7,50,1630668936,"~/.git/config"
+'5  7  69  ~/.git/config
+|4,53,7,69,1630668549,"~/.git/config"
+'6  2  0  ~/.gitconfig
+|4,54,2,0,1630668503,"~/.gitconfig"
+'7  8  11  ~/.xonotic/data/server.cfg
+|4,55,8,11,1630631994,"~/.xonotic/data/server.cfg"
+'8  7  2  ~/.xonotic/data/server.cfg
+|4,56,7,2,1630618786,"~/.xonotic/data/server.cfg"
+'9  7  2  ~/.xonotic/data/server.cfg
+|4,57,7,2,1630618786,"~/.xonotic/data/server.cfg"
 
 # Jumplist (newest first):
+-'  5  10  ~/.gitignore
+|4,39,5,10,1630671838,"~/.gitignore"
+-'  7  6  ~/.gitignore
+|4,39,7,6,1630671802,"~/.gitignore"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  78  0  ~/www/index.html
+|4,39,78,0,1630671746,"~/www/index.html"
+-'  63  0  ~/www/index.html
+|4,39,63,0,1630671638,"~/www/index.html"
+-'  63  0  ~/www/index.html
+|4,39,63,0,1630671638,"~/www/index.html"
+-'  81  8  ~/www/index.html
+|4,39,81,8,1630671637,"~/www/index.html"
+-'  81  8  ~/www/index.html
+|4,39,81,8,1630671637,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630671631,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630671631,"~/www/index.html"
+-'  54  0  ~/www/index.html
+|4,39,54,0,1630671574,"~/www/index.html"
+-'  54  0  ~/www/index.html
+|4,39,54,0,1630671574,"~/www/index.html"
+-'  54  0  ~/www/index.html
+|4,39,54,0,1630671527,"~/www/index.html"
+-'  54  0  ~/www/index.html
+|4,39,54,0,1630671527,"~/www/index.html"
+-'  56  32  ~/www/index.html
+|4,39,56,32,1630671505,"~/www/index.html"
+-'  53  0  ~/www/index.html
+|4,39,53,0,1630671505,"~/www/index.html"
+-'  56  32  ~/www/index.html
+|4,39,56,32,1630671505,"~/www/index.html"
+-'  53  0  ~/www/index.html
+|4,39,53,0,1630671505,"~/www/index.html"
+-'  56  32  ~/www/index.html
+|4,39,56,32,1630671505,"~/www/index.html"
+-'  53  0  ~/www/index.html
+|4,39,53,0,1630671505,"~/www/index.html"
+-'  56  32  ~/www/index.html
+|4,39,56,32,1630671505,"~/www/index.html"
+-'  53  0  ~/www/index.html
+|4,39,53,0,1630671505,"~/www/index.html"
+-'  49  0  ~/www/index.html
+|4,39,49,0,1630671504,"~/www/index.html"
+-'  49  0  ~/www/index.html
+|4,39,49,0,1630671504,"~/www/index.html"
+-'  49  0  ~/www/index.html
+|4,39,49,0,1630671504,"~/www/index.html"
+-'  49  0  ~/www/index.html
+|4,39,49,0,1630671504,"~/www/index.html"
+-'  48  75  ~/www/index.html
+|4,39,48,75,1630671503,"~/www/index.html"
+-'  48  75  ~/www/index.html
+|4,39,48,75,1630671503,"~/www/index.html"
+-'  48  75  ~/www/index.html
+|4,39,48,75,1630671503,"~/www/index.html"
+-'  48  75  ~/www/index.html
+|4,39,48,75,1630671503,"~/www/index.html"
+-'  57  34  ~/www/index.html
+|4,39,57,34,1630671498,"~/www/index.html"
+-'  57  34  ~/www/index.html
+|4,39,57,34,1630671498,"~/www/index.html"
+-'  57  34  ~/www/index.html
+|4,39,57,34,1630671498,"~/www/index.html"
+-'  57  34  ~/www/index.html
+|4,39,57,34,1630671498,"~/www/index.html"
+-'  155  46  ~/www/index.html
+|4,39,155,46,1630670564,"~/www/index.html"
+-'  155  46  ~/www/index.html
+|4,39,155,46,1630670564,"~/www/index.html"
+-'  155  46  ~/www/index.html
+|4,39,155,46,1630670564,"~/www/index.html"
+-'  155  46  ~/www/index.html
+|4,39,155,46,1630670564,"~/www/index.html"
 -'  7  50  ~/.git/config
 |4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  50  ~/.git/config
+|4,39,7,50,1630668936,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630668549,"~/.git/config"
 -'  7  69  ~/.git/config
 |4,39,7,69,1630668549,"~/.git/config"
 -'  2  0  ~/.gitconfig
@@ -155,6 +269,62 @@ $/home/xonotic
 |4,39,2,0,1630668503,"~/.gitconfig"
 -'  2  0  ~/.gitconfig
 |4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
+-'  2  0  ~/.gitconfig
+|4,39,2,0,1630668503,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1630668499,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
@@ -163,188 +333,139 @@ $/home/xonotic
 |4,39,1,0,1630668499,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1630668499,"~/.gitconfig"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  8  11  ~/.xonotic/data/server.cfg
-|4,39,8,11,1630631994,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630624011,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  7  2  ~/.xonotic/data/server.cfg
-|4,39,7,2,1630618786,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  9  0  ~/.xonotic/data/server.cfg
-|4,39,9,0,1630614499,"~/.xonotic/data/server.cfg"
--'  8  0  ~/.xonotic/data/server.cfg
-|4,39,8,0,1630614499,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  3  0  ~/.xonotic/data/server.cfg
-|4,39,3,0,1630614433,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  2  0  ~/.xonotic/data/server.cfg
-|4,39,2,0,1630614432,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  17  0  ~/.xonotic/data/server.cfg
-|4,39,17,0,1630614388,"~/.xonotic/data/server.cfg"
--'  16  0  ~/.xonotic/data/server.cfg
-|4,39,16,0,1630614388,"~/.xonotic/data/server.cfg"
--'  6  6  ~/.gitignore
-|4,39,6,6,1630440482,"~/.gitignore"
--'  6  6  ~/.gitignore
-|4,39,6,6,1630440482,"~/.gitignore"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1630668499,"~/.gitconfig"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1630671837	0
+	"	5	10
+	^	5	11
+	.	5	10
+	+	1	10
+	+	2	18
+	+	3	19
+	+	4	24
+	+	6	11
+	+	7	6
+	+	5	10
+
+> ~/www/index.html
+	*	1630671745	0
+	"	78	0
+	^	76	0
+	.	53	57
+	+	34	0
+	+	36	12
+	+	113	0
+	+	134	0
+	+	109	45
+	+	119	0
+	+	114	93
+	+	114	47
+	+	114	93
+	+	38	13
+	+	131	7
+	+	138	34
+	+	131	125
+	+	152	0
+	+	120	0
+	+	129	6
+	+	129	2
+	+	45	6
+	+	23	0
+	+	84	0
+	+	94	0
+	+	107	0
+	+	127	0
+	+	129	0
+	+	128	0
+	+	136	0
+	+	143	0
+	+	45	3
+	+	84	0
+	+	83	0
+	+	84	3
+	+	94	4
+	+	107	4
+	+	127	4
+	+	128	4
+	+	136	4
+	+	143	4
+	+	22	3
+	+	112	31
+	+	114	104
+	+	114	0
+	+	115	0
+	+	116	86
+	+	117	55
+	+	34	179
+	+	138	0
+	+	144	0
+	+	145	51
+	+	148	67
+	+	138	52
+	+	145	51
+	+	148	12
+	+	140	51
+	+	141	0
+	+	66	66
+	+	67	101
+	+	153	0
+	+	161	0
+	+	152	320
+	+	152	235
+	+	154	0
+	+	155	5
+	+	152	237
+	+	155	0
+	+	152	261
+	+	155	9
+	+	152	44
+	+	152	177
+	+	152	30
+	+	157	34
+	+	152	242
+	+	152	88
+	+	152	199
+	+	152	335
+	+	158	0
+	+	155	46
+	+	48	139
+	+	48	52
+	+	48	38
+	+	53	62
+	+	53	32
+	+	53	74
+	+	56	24
+	+	56	35
+	+	57	34
+	+	56	0
+	+	49	0
+	+	53	0
+	+	56	32
+	+	57	0
+	+	53	0
+	+	53	57
 
 > ~/.git/config
 	*	1630668935	0
@@ -379,100 +500,6 @@ $/home/xonotic
 	+	16	0
 	+	7	23
 	+	8	11
-
-> ~/.gitignore
-	*	1630440481	0
-	"	6	6
-	^	6	7
-	.	6	6
-	+	1	10
-	+	2	18
-	+	3	19
-	+	4	24
-	+	5	11
-	+	6	6
-
-> ~/www/index.html
-	*	1630437123	0
-	"	157	46
-	^	157	47
-	.	157	46
-	+	34	0
-	+	36	12
-	+	115	0
-	+	136	0
-	+	111	45
-	+	121	0
-	+	116	93
-	+	116	47
-	+	116	93
-	+	38	13
-	+	133	7
-	+	140	34
-	+	133	125
-	+	154	0
-	+	122	0
-	+	131	6
-	+	131	2
-	+	45	6
-	+	23	0
-	+	86	0
-	+	96	0
-	+	109	0
-	+	129	0
-	+	131	0
-	+	130	0
-	+	138	0
-	+	145	0
-	+	45	3
-	+	86	0
-	+	85	0
-	+	86	3
-	+	96	4
-	+	109	4
-	+	129	4
-	+	130	4
-	+	138	4
-	+	145	4
-	+	22	3
-	+	114	31
-	+	116	104
-	+	116	0
-	+	117	0
-	+	118	86
-	+	119	55
-	+	34	179
-	+	140	0
-	+	146	0
-	+	147	51
-	+	150	67
-	+	140	52
-	+	147	51
-	+	150	12
-	+	142	51
-	+	143	0
-	+	68	66
-	+	69	101
-	+	155	0
-	+	163	0
-	+	154	320
-	+	154	235
-	+	156	0
-	+	157	5
-	+	154	237
-	+	157	0
-	+	154	261
-	+	157	9
-	+	154	44
-	+	154	177
-	+	154	30
-	+	159	34
-	+	154	242
-	+	154	88
-	+	154	199
-	+	154	335
-	+	160	0
-	+	157	46
 
 > ~/.zsh_history
 	*	1630436044	0

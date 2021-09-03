@@ -2,5 +2,6 @@
 .xonotic/data/data
 .xonotic/key_0.d0si
 .xonotic/data/secret.cfg
+.zcompdump*
 xonotic.log
 Xonotic
