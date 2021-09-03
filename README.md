@@ -1,9 +1,6 @@
-<center><img src="https://xonotic.org/static/img/xonotic-logo.png"></center>
-<p><br>
+I created a backup of my entire Xonotic server config, including all pk3 files, [on Github](https://github.com/ballerburg9005/xonotic.us.to).
 
-This is a backup of my entire Xonotic server config, including all pk3 files. 
-
-I created complete instructions how you can set up this server by yourself. 
+It includes complete instructions how you can set up this server by yourself. 
  
 My server does also display those instructions on http://xonotic.us.to .
 <p><br>
@@ -43,9 +40,10 @@ rm Xonotic-`date +%Y%m%d  --date="3 days ago"`.zip
 ```
 <br>
 
-Download the maps and server config from this github repository:
+Download the maps and server config from my github repository:
 ```
-git clone https://github.com/ballerburg9005/xonotic.us.to
+git clone https://github.com/ballerburg9005/
+ 
 mv xonotic.us.to/* xonotic.us.to/.* ./
 chmod 700 /home/xonotic/.xonotic/data/data
 rm -r xonotic.us.to
