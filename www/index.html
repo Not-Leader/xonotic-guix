@@ -74,11 +74,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 mkdir -p /home/xonotic/www
 cd /home/xonotic/www
 
-# copies just this index.html
-wget http://xonotic.us.to/
-
 # needed for fast downloads, set the correct URL in your server.cfg as well! (e.g. http://1.2.3.4/xonotic/ )
 ln -s /home/xonotic/.xonotic/data /var/www/html/xonotic
+
+# needed for website
+ln -s /home/xonotic/README.md /var/www/html/README.md
 
 </pre>
 <br>

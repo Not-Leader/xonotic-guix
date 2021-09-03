@@ -21,9 +21,9 @@ $/home/xonotic
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1630673404,,"q"
+|2,0,1630676107,,"q"
 :wq
-|2,0,1630673397,,"wq"
+|2,0,1630676105,,"wq"
 :weq
 |2,0,1630673387,,"weq"
 :qw
@@ -41,7 +41,7 @@ $/home/xonotic
 
 # Search String History (newest to oldest):
 ?/ln -s
-|2,1,1630671631,47,"ln -s"
+|2,1,1630673498,47,"ln -s"
 ?/lighty
 |2,1,1630671491,47,"lighty"
 ?/light
@@ -80,31 +80,35 @@ $/home/xonotic
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	.xonotic/key_0*
-|3,1,0,1,1,0,1630672677,".xonotic/key_0*"
+|3,0,0,1,1,0,1630672677,".xonotic/key_0*"
 "1	LINE	0
-	: 1630672309:0;grep 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 * -r
-|3,0,1,1,1,0,1630672322,": 1630672309:0;grep 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 * -r"
+	# copies just this index.html
+	wget http://xonotic.us.to/
+|3,0,1,1,2,0,1630673514,"# copies just this index.html","wget http://xonotic.us.to/"
 "2	LINE	0
-	# this is not really needed, php-fpm is also not really needed
-|3,0,2,1,1,0,1630671507,"# this is not really needed, php-fpm is also not really needed"
+	: 1630672309:0;grep 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 * -r
+|3,0,2,1,1,0,1630672322,": 1630672309:0;grep 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 * -r"
 "3	LINE	0
-	mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/
-|3,0,3,1,1,0,1630671379,"mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/"
+	# this is not really needed, php-fpm is also not really needed
+|3,0,3,1,1,0,1630671507,"# this is not really needed, php-fpm is also not really needed"
 "4	LINE	0
-	cd /etc/lighttpd/conf-available/
-|3,0,4,1,1,0,1630671379,"cd /etc/lighttpd/conf-available/"
+	mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/
+|3,0,4,1,1,0,1630671379,"mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/"
 "5	LINE	0
-	systemctl enable xonotic 
-|3,0,5,1,1,0,1630670823,"systemctl enable xonotic "
+	cd /etc/lighttpd/conf-available/
+|3,0,5,1,1,0,1630671379,"cd /etc/lighttpd/conf-available/"
 "6	LINE	0
-	sys_ticrate 0.0242424
-|3,0,6,1,1,0,1630614459,"sys_ticrate 0.0242424"
+	systemctl enable xonotic 
+|3,0,6,1,1,0,1630670823,"systemctl enable xonotic "
 "7	LINE	0
-	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
-|3,0,7,1,1,0,1630614436,"sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
+	sys_ticrate 0.0242424
+|3,0,7,1,1,0,1630614459,"sys_ticrate 0.0242424"
 "8	LINE	0
+	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
+|3,0,8,1,1,0,1630614436,"sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
+"9	LINE	0
 	315
 <//g_maplist "revdm3pro curse_v2 spaceapple bloodrun quark toxic_fabric deck_v2 romi stone_sea revolter limbo tuhma revrem thehighestground epsilon-b5 resist-desaturation Fjo3tourney2_nex_r1 79drgc2 Bal3dm4_nex_r1 CMP1-dm6 acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1"
 	607
@@ -117,293 +121,255 @@ $/home/xonotic
 	g_maxplayers 16
 	sv_vote_gametype 1
 	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
-|3,0,8,1,10,0,1630614413,"//g_maplist \"revdm3pro curse_v2 spaceapple bloodrun quark toxic_fabric deck_v2 romi stone_sea revolter limbo tuhma revrem thehighestground epsilon-b5 resist-desaturation Fjo3tourney2_nex_r1 79drgc2 Bal3dm4_nex_r1 CMP1-dm6 acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1\"",>608
+|3,0,9,1,10,0,1630614413,"//g_maplist \"revdm3pro curse_v2 spaceapple bloodrun quark toxic_fabric deck_v2 romi stone_sea revolter limbo tuhma revrem thehighestground epsilon-b5 resist-desaturation Fjo3tourney2_nex_r1 79drgc2 Bal3dm4_nex_r1 CMP1-dm6 acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1\"",>608
 |<"g_maplist \"79drgc2 Bal3dm4_nex_r1 CMP1-dm6 Fjo3tourney2_nex_r1 abyss acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1 cht2_nex_r1 cht3_nex_r1 curse_v2 deck_v2 dieselpower distonic dm_nexdm3 docs_cyber_core_insta dsi dubneoc ek3dm1_nex_r1 fr3dm1_nex_r1 g-23 geo-core hub3aeroq3a_nex_r1 ikzdm1 kaznexdm1 klzegypt lightspeed lun3dm4_nex_r1 epsilon-b5 limbo revrem stone_sea newtonian-nightmare peasants_palace q3dm17ish quark_v4 breathium red-planet r
 |<esist-desaturation revdm3pro rom spaceapple-v2 straledm5 thehighestground toxic_fabric tuhma cubes-x03-r02_melano1\"","sv_curl_defaulturl \"http://xonotic.us.to/xonotic/\"","sv_maxrate 1000000","sys_ticrate 0.0242424","gametype dm","fraglimit 32","g_maxplayers 16","sv_vote_gametype 1","sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
-"9	LINE	0
-	sv_weaponstats_file "http://www.xonotic.org/weaponbalance/"
-	
-	exec "secret.cfg" // contains just rcon_password
-|3,0,9,1,3,0,1630614390,"sv_weaponstats_file \"http://www.xonotic.org/weaponbalance/\"","","exec \"secret.cfg\" // contains just rcon_password"
-"-	CHAR	0
-	git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
-|3,0,36,0,1,0,1630436485,"git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m \".\"; git push"
+""-	CHAR	0
+	GIT=;cd /home/xonotic/;git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
+|3,1,36,0,1,0,1630676093,"GIT=;cd /home/xonotic/;git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m \".\"; git push"
 
 # File marks:
-'0  2  28  ~/.selected_editor
-|4,48,2,28,1630673404,"~/.selected_editor"
-'1  1  0  /tmp/crontab.c2Ob0A/crontab
-|4,49,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
-'2  2  28  ~/.selected_editor
-|4,50,2,28,1630673397,"~/.selected_editor"
-'3  2  24  ~/.selected_editor
-|4,51,2,24,1630673388,"~/.selected_editor"
-'4  2  24  ~/.selected_editor
-|4,52,2,24,1630673388,"~/.selected_editor"
-'5  9  7  ~/.gitignore
-|4,53,9,7,1630673347,"~/.gitignore"
-'6  4  12  ~/.gitignore
-|4,54,4,12,1630672685,"~/.gitignore"
-'7  4  12  ~/.gitignore
-|4,55,4,12,1630672685,"~/.gitignore"
-'8  7  69  ~/.git/config
-|4,56,7,69,1630672525,"~/.git/config"
-'9  274  0  ~/.zsh_history
-|4,57,274,0,1630672325,"~/.zsh_history"
+'0  1  0  /tmp/crontab.Zflbn9/crontab
+|4,48,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
+'1  24  189  /tmp/crontab.FEIdMY/crontab
+|4,49,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
+'2  29  16  ~/www/index.html
+|4,50,29,16,1630675979,"~/www/index.html"
+'3  30  16  ~/www/index.html
+|4,51,30,16,1630673589,"~/www/index.html"
+'4  30  16  ~/www/index.html
+|4,52,30,16,1630673589,"~/www/index.html"
+'5  80  19  ~/www/index.html
+|4,53,80,19,1630673565,"~/www/index.html"
+'6  80  19  ~/www/index.html
+|4,54,80,19,1630673565,"~/www/index.html"
+'7  80  19  ~/www/index.html
+|4,55,80,19,1630673565,"~/www/index.html"
+'8  80  19  ~/www/index.html
+|4,56,80,19,1630673565,"~/www/index.html"
+'9  2  28  ~/.selected_editor
+|4,57,2,28,1630673404,"~/.selected_editor"
 
 # Jumplist (newest first):
+-'  1  0  /tmp/crontab.Zflbn9/crontab
+|4,39,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
+-'  24  189  /tmp/crontab.FEIdMY/crontab
+|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
+-'  24  189  /tmp/crontab.FEIdMY/crontab
+|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
+-'  1  0  /tmp/crontab.FEIdMY/crontab
+|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
+-'  1  0  /tmp/crontab.FEIdMY/crontab
+|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
+-'  29  16  ~/www/index.html
+|4,39,29,16,1630675979,"~/www/index.html"
+-'  29  16  ~/www/index.html
+|4,39,29,16,1630675979,"~/www/index.html"
+-'  29  16  ~/www/index.html
+|4,39,29,16,1630675979,"~/www/index.html"
+-'  29  16  ~/www/index.html
+|4,39,29,16,1630675979,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673607,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673607,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673607,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673607,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673589,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673589,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673589,"~/www/index.html"
+-'  30  16  ~/www/index.html
+|4,39,30,16,1630673589,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673569,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673565,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673565,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673565,"~/www/index.html"
+-'  80  19  ~/www/index.html
+|4,39,80,19,1630673565,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  76  0  ~/www/index.html
+|4,39,76,0,1630673498,"~/www/index.html"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
 -'  2  28  ~/.selected_editor
 |4,39,2,28,1630673404,"~/.selected_editor"
 -'  1  0  /tmp/crontab.c2Ob0A/crontab
 |4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
 -'  1  0  /tmp/crontab.c2Ob0A/crontab
 |4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673397,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673397,"~/.selected_editor"
--'  2  24  ~/.selected_editor
-|4,39,2,24,1630673388,"~/.selected_editor"
--'  2  24  ~/.selected_editor
-|4,39,2,24,1630673388,"~/.selected_editor"
--'  1  0  ~/.selected_editor
-|4,39,1,0,1630673383,"~/.selected_editor"
--'  1  0  ~/.selected_editor
-|4,39,1,0,1630673383,"~/.selected_editor"
--'  1  0  ~/.selected_editor
-|4,39,1,0,1630673383,"~/.selected_editor"
--'  1  0  ~/.selected_editor
-|4,39,1,0,1630673383,"~/.selected_editor"
--'  1  0  ~/.selected_editor
-|4,39,1,0,1630673383,"~/.selected_editor"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  9  7  ~/.gitignore
-|4,39,9,7,1630673347,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630673318,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  4  12  ~/.gitignore
-|4,39,4,12,1630672685,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  6  10  ~/.gitignore
-|4,39,6,10,1630672669,"~/.gitignore"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
--'  7  69  ~/.git/config
-|4,39,7,69,1630672525,"~/.git/config"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
 
 # History of marks within files (newest to oldest):
 
-> ~/.selected_editor
-	*	1630673403	0
-	"	2	28
-	^	2	29
-	.	2	28
-	+	2	28
-
-> /tmp/crontab.c2Ob0A/crontab
-	*	1630673399	0
+> /tmp/crontab.Zflbn9/crontab
+	*	1630676106	0
 	"	1	0
 
-> ~/.gitignore
-	*	1630673347	0
-	"	9	7
-	^	9	8
-	.	9	7
-	+	1	10
-	+	2	18
-	+	3	19
-	+	5	24
-	+	10	11
-	+	11	6
-	+	6	10
-	+	3	15
-	+	4	15
-	+	4	12
-	+	10	0
-	+	9	7
-
-> ~/.git/config
-	*	1630672524	0
-	"	7	69
-	^	7	70
-	.	7	69
-	+	7	30
-	+	7	69
-
-> ~/.zsh_history
-	*	1630672323	0
-	"	274	0
-	.	274	0
-	+	172	0
-	+	274	0
+> /tmp/crontab.FEIdMY/crontab
+	*	1630676105	0
+	"	24	189
+	^	24	190
+	.	24	189
+	+	24	189
 
 > ~/www/index.html
-	*	1630671745	0
-	"	78	0
-	^	76	0
-	.	53	57
+	*	1630673616	0
+	"	29	16
+	^	80	20
+	.	80	20
 	+	34	0
 	+	36	12
 	+	113	0
@@ -496,6 +462,53 @@ $/home/xonotic
 	+	57	0
 	+	53	0
 	+	53	57
+	+	76	0
+	+	77	0
+	+	80	20
+
+> ~/.selected_editor
+	*	1630673403	0
+	"	2	28
+	^	2	29
+	.	2	28
+	+	2	28
+
+> /tmp/crontab.c2Ob0A/crontab
+	*	1630673399	0
+	"	1	0
+
+> ~/.gitignore
+	*	1630673347	0
+	"	9	7
+	^	9	8
+	.	9	7
+	+	1	10
+	+	2	18
+	+	3	19
+	+	5	24
+	+	10	11
+	+	11	6
+	+	6	10
+	+	3	15
+	+	4	15
+	+	4	12
+	+	10	0
+	+	9	7
+
+> ~/.git/config
+	*	1630672524	0
+	"	7	69
+	^	7	70
+	.	7	69
+	+	7	30
+	+	7	69
+
+> ~/.zsh_history
+	*	1630672323	0
+	"	274	0
+	.	274	0
+	+	172	0
+	+	274	0
 
 > ~/.gitconfig
 	*	1630668502	0
