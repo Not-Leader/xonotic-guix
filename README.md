@@ -12,7 +12,7 @@ Steps to set up my Xonotic server on Ubuntu
 ===========================================
 <br>
 
-Prepare the system: install packages, setup xonotic user, use zsh:
+Prepare the system. Install packages, setup xonotic user, use zsh:
 ```
 apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql git
 
