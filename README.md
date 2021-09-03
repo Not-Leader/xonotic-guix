@@ -49,7 +49,7 @@ git clone --depth=1 https://github.com/ballerburg9005/xonotic.us.to
  
 rsync -ra xonotic.us.to/ ./
 chmod 700 /home/xonotic/.xonotic/data/data
-rm -r xonotic.us.to
+rm -rf xonotic.us.to
 ```
 <br>
 
@@ -61,6 +61,11 @@ sed "s/xonotic\.us\.to/$MYSERVER/g" -i /home/xonotic/.xonotic/data/server.cfg
 # you can control the server if connected inside Xonotic as a player with this password
 echo '//rcon_password "SuperSecretPassword6666666"' >  /home/xonotic/.xonotic/data/secret.cfg # remove //
 chmod 700 /home/xonotic/.xonotic/data/secret.cfg
+```
+
+Seriously ... you have to edit the server.cfg by hand:
+```
+vim /home/xonotic/.xonotic/data/server.cfg
 ```
 <br>
 
