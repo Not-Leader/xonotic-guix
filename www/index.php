@@ -33,6 +33,9 @@ Western Europe, France, Strasbourg (SBG)
 Central Europe, Poland, Warsaw (WAW)
 Central Europe, Germany, Frankfurt (DE)
 Western Europe, United Kingdom, London (UK)
+
+North America, VA, USA, Vint Hill (US-EAST-VA)
+North America, OR, USA, Hillsboro (US-WEST-OR)
 </pre></div><p>
 The dynamic DNS provider I use to get a "us.to" subdomain is <a href="http://afraid.org">Afraid.org</a> (this is not required).
 </center>

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/does also
+~MSle0~/clone
 
 # Last Substitute Search Pattern:
 ~MSle0&\$HOME
@@ -21,11 +21,13 @@ $/home/xonotic
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1630685848,,"wq"
+|2,0,1630704319,,"wq"
+:q1
+|2,0,1630703549,,"q1"
 :q
-|2,0,1630685514,,"q"
+|2,0,1630702378,,"q"
 :w
-|2,0,1630685513,,"w"
+|2,0,1630686214,,"w"
 :s
 |2,0,1630682629,,"s"
 :qw
@@ -46,6 +48,12 @@ $/home/xonotic
 |2,0,1630430656,,"eqw"
 
 # Search String History (newest to oldest):
+?/clone
+|2,1,1630704313,47,"clone"
+?/THEME
+|2,1,1630703556,47,"THEME"
+?/:q
+|2,1,1630703548,47,":q"
 ?/does also
 |2,1,1630683212,47,"does also"
 ?/does
@@ -135,236 +143,236 @@ $/home/xonotic
 |3,0,36,0,1,0,1630683213," "
 
 # File marks:
-'0  50  26  ~/README.md
-|4,48,50,26,1630685848,"~/README.md"
-'1  24  2  /tmp/crontab.CTBKRJ/crontab
-|4,49,24,2,1630685529,"/tmp/crontab.CTBKRJ/crontab"
-'2  96  74  ~/README.md
-|4,50,96,74,1630685514,"~/README.md"
-'3  96  74  ~/README.md
-|4,51,96,74,1630685514,"~/README.md"
-'4  8  22  ~/www/README.md
-|4,52,8,22,1630683218,"~/www/README.md"
-'5  27  38  ~/www/index.php
-|4,53,27,38,1630683205,"~/www/index.php"
-'6  1  0  ~/index.php
-|4,54,1,0,1630682616,"~/index.php"
-'7  91  2  ~/README.md
-|4,55,91,2,1630682612,"~/README.md"
-'8  91  2  ~/README.md
-|4,56,91,2,1630682612,"~/README.md"
-'9  91  2  ~/README.md
-|4,57,91,2,1630682612,"~/README.md"
+'0  48  19  ~/README.md
+|4,48,48,19,1630704319,"~/README.md"
+'1  11  21  ~/.zshrc
+|4,49,11,21,1630703629,"~/.zshrc"
+'2  11  15  ~/.zshrc
+|4,50,11,15,1630703603,"~/.zshrc"
+'3  272  22  ~/.zsh_history
+|4,51,272,22,1630703549,"~/.zsh_history"
+'4  36  0  ~/www/index.php
+|4,52,36,0,1630702378,"~/www/index.php"
+'5  1  0  ~/index.php
+|4,53,1,0,1630686179,"~/index.php"
+'6  22  26  ~/README.md
+|4,54,22,26,1630686177,"~/README.md"
+'7  22  26  ~/README.md
+|4,55,22,26,1630686177,"~/README.md"
+'8  50  26  ~/README.md
+|4,56,50,26,1630685848,"~/README.md"
+'9  50  26  ~/README.md
+|4,57,50,26,1630685848,"~/README.md"
 
 # Jumplist (newest first):
--'  50  26  ~/README.md
-|4,39,50,26,1630685848,"~/README.md"
--'  96  74  ~/README.md
-|4,39,96,74,1630685763,"~/README.md"
--'  24  2  /tmp/crontab.CTBKRJ/crontab
-|4,39,24,2,1630685529,"/tmp/crontab.CTBKRJ/crontab"
--'  24  2  /tmp/crontab.CTBKRJ/crontab
-|4,39,24,2,1630685529,"/tmp/crontab.CTBKRJ/crontab"
--'  1  0  /tmp/crontab.CTBKRJ/crontab
-|4,39,1,0,1630685517,"/tmp/crontab.CTBKRJ/crontab"
--'  1  0  /tmp/crontab.CTBKRJ/crontab
-|4,39,1,0,1630685517,"/tmp/crontab.CTBKRJ/crontab"
--'  96  74  ~/README.md
-|4,39,96,74,1630685514,"~/README.md"
--'  96  74  ~/README.md
-|4,39,96,74,1630685514,"~/README.md"
--'  91  2  ~/README.md
-|4,39,91,2,1630685501,"~/README.md"
--'  91  2  ~/README.md
-|4,39,91,2,1630685501,"~/README.md"
--'  91  2  ~/README.md
-|4,39,91,2,1630685501,"~/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  8  22  ~/www/README.md
-|4,39,8,22,1630683218,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  122  0  ~/www/README.md
-|4,39,122,0,1630683209,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
--'  121  3  ~/www/README.md
-|4,39,121,3,1630683206,"~/www/README.md"
+-'  48  19  ~/README.md
+|4,39,48,19,1630704319,"~/README.md"
+-'  21  26  ~/README.md
+|4,39,21,26,1630704313,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630704298,"~/README.md"
+-'  11  21  ~/.zshrc
+|4,39,11,21,1630703629,"~/.zshrc"
+-'  11  21  ~/.zshrc
+|4,39,11,21,1630703629,"~/.zshrc"
+-'  11  15  ~/.zshrc
+|4,39,11,15,1630703603,"~/.zshrc"
+-'  11  15  ~/.zshrc
+|4,39,11,15,1630703603,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1630703556,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1630703556,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1630703556,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1630703556,"~/.zshrc"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1630703549,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  274  0  ~/.zsh_history
+|4,39,274,0,1630703546,"~/.zsh_history"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630702378,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  27  38  ~/www/index.php
-|4,39,27,38,1630683205,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
--'  37  125  ~/www/index.php
-|4,39,37,125,1630682619,"~/www/index.php"
+|4,39,27,38,1630686183,"~/www/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
+|4,39,1,0,1630686179,"~/index.php"
 -'  1  0  ~/index.php
-|4,39,1,0,1630682616,"~/index.php"
--'  91  2  ~/README.md
-|4,39,91,2,1630682612,"~/README.md"
+|4,39,1,0,1630686179,"~/index.php"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
+-'  22  26  ~/README.md
+|4,39,22,26,1630686177,"~/README.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/README.md
-	*	1630685847	0
-	"	50	26
-	^	50	27
-	.	50	26
+	*	1630704319	0
+	"	48	19
+	^	48	20
+	.	48	19
 	+	9	0
 	+	81	16
 	+	81	15
@@ -385,6 +393,95 @@ $/home/xonotic
 	+	96	74
 	+	16	82
 	+	50	26
+	+	48	19
+
+> ~/.zshrc
+	*	1630703629	0
+	"	11	21
+	^	11	22
+	.	11	21
+	+	11	21
+
+> ~/.zsh_history
+	*	1630703549	0
+	"	272	22
+	.	274	0
+	+	172	0
+	+	274	0
+
+> ~/www/index.php
+	*	1630686214	0
+	"	36	0
+	^	36	0
+	.	39	0
+	+	51	36
+	+	51	0
+	+	52	0
+	+	1	6
+	+	4	6
+	+	5	23
+	+	6	13
+	+	19	5
+	+	54	6
+	+	4	2
+	+	5	21
+	+	52	0
+	+	51	1
+	+	44	30
+	+	47	0
+	+	44	0
+	+	53	6
+	+	53	2
+	+	53	0
+	+	50	0
+	+	9	6
+	+	9	13
+	+	8	0
+	+	14	1
+	+	9	49
+	+	10	0
+	+	9	24
+	+	11	9
+	+	13	19
+	+	13	12
+	+	11	9
+	+	13	14
+	+	11	0
+	+	13	15
+	+	11	15
+	+	14	0
+	+	28	5
+	+	39	11
+	+	28	26
+	+	39	0
+	+	29	43
+	+	30	40
+	+	31	43
+	+	32	43
+	+	33	39
+	+	34	42
+	+	35	46
+	+	28	20
+	+	39	13
+	+	7	13
+	+	9	18
+	+	16	9
+	+	17	85
+	+	9	20
+	+	22	79
+	+	25	106
+	+	24	128
+	+	26	12
+	+	27	38
+	+	38	46
+	+	36	0
+	+	38	46
+	+	36	0
+	+	39	0
+
+> ~/index.php
+	*	1630686178	0
+	"	1	0
 
 > /tmp/crontab.CTBKRJ/crontab
 	*	1630685529	0
@@ -412,75 +509,6 @@ $/home/xonotic
 	+	120	133
 	+	121	6
 	+	8	22
-
-> ~/www/index.php
-	*	1630683166	0
-	"	27	38
-	^	27	39
-	.	27	38
-	+	48	36
-	+	48	0
-	+	49	0
-	+	1	6
-	+	4	6
-	+	5	23
-	+	6	13
-	+	19	5
-	+	51	6
-	+	4	2
-	+	5	21
-	+	49	0
-	+	48	1
-	+	41	30
-	+	44	0
-	+	41	0
-	+	50	6
-	+	50	2
-	+	50	0
-	+	47	0
-	+	9	6
-	+	9	13
-	+	8	0
-	+	14	1
-	+	9	49
-	+	10	0
-	+	9	24
-	+	11	9
-	+	13	19
-	+	13	12
-	+	11	9
-	+	13	14
-	+	11	0
-	+	13	15
-	+	11	15
-	+	14	0
-	+	28	5
-	+	36	11
-	+	28	26
-	+	36	0
-	+	29	43
-	+	30	40
-	+	31	43
-	+	32	43
-	+	33	39
-	+	34	42
-	+	35	46
-	+	28	20
-	+	36	13
-	+	7	13
-	+	9	18
-	+	16	9
-	+	17	85
-	+	9	20
-	+	22	79
-	+	25	106
-	+	24	128
-	+	26	12
-	+	27	38
-
-> ~/index.php
-	*	1630682615	0
-	"	1	0
 
 > www/index.php
 	*	1630679040	0
@@ -623,13 +651,6 @@ $/home/xonotic
 	.	7	69
 	+	7	30
 	+	7	69
-
-> ~/.zsh_history
-	*	1630672323	0
-	"	274	0
-	.	274	0
-	+	172	0
-	+	274	0
 
 > ~/.gitconfig
 	*	1630668502	0

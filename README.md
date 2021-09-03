@@ -45,7 +45,7 @@ rm Xonotic-`date +%Y%m%d  --date="3 days ago"`.zip
 
 Download the maps and server config from my github repository:
 ```
-git clone https://github.com/ballerburg9005/xonotic.us.to
+git clone --depth=1 https://github.com/ballerburg9005/xonotic.us.to
  
 rsync -ra xonotic.us.to/ ./
 chmod 700 /home/xonotic/.xonotic/data/data
