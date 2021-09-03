@@ -105,7 +105,7 @@ to an empty repo. Then logged in as xonotic on my server I simply cloned
 the following to a crontab of the xonotic user: 
 
 ```
-GIT=;cd /home/xonotic/;git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
+GIT=;cd /home/xonotic/; git config --global http.postBuffer 1048576000; git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
 ```
 <br>
 
