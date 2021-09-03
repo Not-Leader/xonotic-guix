@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ln -s
+~MSle0~/Steps
 
 # Last Substitute Search Pattern:
 ~MSle0&\$HOME
@@ -21,19 +21,19 @@ $/home/xonotic
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1630677590,,"q"
+|2,0,1630680037,,"q"
+:w
+|2,0,1630680015,,"w"
+:qw
+|2,0,1630679040,,"qw"
+:wq
+|2,0,1630678443,,"wq"
 :q!
 |2,0,1630677571,,"q!"
 :a
 |2,0,1630677565,,"a"
-:w
-|2,0,1630677547,,"w"
-:wq
-|2,0,1630676105,,"wq"
 :weq
 |2,0,1630673387,,"weq"
-:qw
-|2,0,1630671745,,"qw"
 :2w
 |2,0,1630432639,,"2w"
 :0,$s#\$HOME#/home/xonotic#g
@@ -44,6 +44,8 @@ $/home/xonotic
 |2,0,1630430656,,"eqw"
 
 # Search String History (newest to oldest):
+?/Steps
+|2,1,1630679600,47,"Steps"
 ?/ln -s
 |2,1,1630673498,47,"ln -s"
 ?/lighty
@@ -84,321 +86,374 @@ $/home/xonotic
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	.xonotic/key_0*
-|3,0,0,1,1,0,1630672677,".xonotic/key_0*"
-""1	LINE	0
-	<div style="padding: 40px;">
-	<h3>If you want to recreate this server (Ubuntu):</h3>
+"0	CHAR	0
+	@media (min-width:320px) {
+	html {
+	padding: 20px;
+	}
+	
+	
+|3,0,0,0,6,0,1630679172,"@media (min-width:320px) {","html {","padding: 20px;","}","",""
+"1	LINE	0
 	<br>
-	Edit the file <b>/etc/systemd/system/xonotic.service</b> :<p>
-	<pre style="background-color: #EEE; padding: 20px">
-	[Unit]
-	Description=Xonotic
-	After=network.target
+|3,0,1,1,1,0,1630679629,"<br>"
+"2	CHAR	0
+	@media (min-width:800px) {
+	html {
+	padding: 0px 10%;
+	}
 	
-	StartLimitIntervalSec=500
-	StartLimitBurst=5
 	
-	[Service]
-	WorkingDirectory=/home/xonotic/Xonotic
-	ExecStart=/usr/bin/screen -dmS xonotic-server /bin/sh -c 'echo -en "\n\n\n$(date)\n\n\n" &gt;&gt; /home/xonotic/xonotic.log; /home/xonotic/Xonotic/xonotic-linux-dedicated.sh 2&gt;&amp;1 | tee -a /home/xonotic/xonotic.log'
-	User=xonotic
-	Type=forking
+|3,0,2,0,6,0,1630679260,"@media (min-width:800px) {","html {","padding: 0px 10%;","}","",""
+"3	CHAR	0
+	html {
+	padding: 40px;
+	}
 	
-	Restart=always
-	RestartSec=5s
-	
-	[Install]
-	WantedBy=graphical.target #check target by running: systemctl get-default
-	
-	</pre>
-	<br>
-	Prepare the system: install packages, setup xonotic user, lighttpd for fast pk3 download and zsh :<p>
-	<pre style="background-color: #EEE; padding: 20px">
-	apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql
-	
-	# Oh my Zsh
-	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-	
-	lighty-enable-mod fastcgi fastcgi-php dir-listing rewrite
-	
-	systemctl daemon-reload
-	systemctl enable xonotic lighttd 
-	systemctl start lighttpd
-	
-	useradd -u 9005 -m xonotic -G root,audio -g www-data -s `which zsh`
-	
-	# move the www dir to xonotic user, makes scp backups easier
-	rm -r /var/www/html
-	ln -s /home/xonotic/www /var/www/html
-	ln /etc/systemd/system/xonotic.service /home/xonotic
-	
-	# --- &gt; now put your id_rsa.pub into /root/.ssh/authorized_keys
-	# also add your root account's id_rsa.pub, if you want to run cronjob backups that preserve ownership
-	
-	su xonotic
-|3,1,1,1,50,0,1630677465,"<div style=\"padding: 40px;\">","<h3>If you want to recreate this server (Ubuntu):</h3>","<br>","Edit the file <b>/etc/systemd/system/xonotic.service</b> :<p>","<pre style=\"background-color: #EEE; padding: 20px\">","[Unit]","Description=Xonotic","After=network.target","","StartLimitIntervalSec=500","StartLimitBurst=5","","[Service]","WorkingDirectory=/home/xonotic/Xonotic",>231
-|<"ExecStart=/usr/bin/screen -dmS xonotic-server /bin/sh -c 'echo -en \"\\n\\n\\n$(date)\\n\\n\\n\" &gt;&gt; /home/xonotic/xonotic.log; /home/xonotic/Xonotic/xonotic-linux-dedicated.sh 2&gt;&amp;1 | tee -a /home/xonotic/xonotic.log'","User=xonotic","Type=forking","","Restart=always","RestartSec=5s","","[Install]","WantedBy=graphical.target #check target by running: systemctl get-default","","</pre>","<br>",>103
-|<"Prepare the system: install packages, setup xonotic user, lighttpd for fast pk3 download and zsh :<p>","<pre style=\"background-color: #EEE; padding: 20px\">","apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql","","# Oh my Zsh","sh -c \"$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"","","lighty-enable-mod fastcgi fastcgi-php dir-listing rewrite","","systemctl daemon-reload","systemctl enable xonotic lighttd ",>26
-|<"systemctl start lighttpd","","useradd -u 9005 -m xonotic -G root,audio -g www-data -s `which zsh`","","# move the www dir to xonotic user, makes scp backups easier","rm -r /var/www/html","ln -s /home/xonotic/www /var/www/html","ln /etc/systemd/system/xonotic.service /home/xonotic","","# --- &gt; now put your id_rsa.pub into /root/.ssh/authorized_keys","# also add your root account's id_rsa.pub, if you want to run cronjob backups that preserve ownership","","su xonotic"
-"2	LINE	0
-	# copies just this index.html
-	wget http://xonotic.us.to/
-|3,0,2,1,2,0,1630673514,"# copies just this index.html","wget http://xonotic.us.to/"
-"3	LINE	0
-	: 1630672309:0;grep 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 * -r
-|3,0,3,1,1,0,1630672322,": 1630672309:0;grep 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 * -r"
+|3,0,3,0,4,0,1630679146,"html {","padding: 40px;","}",""
 "4	LINE	0
-	# this is not really needed, php-fpm is also not really needed
-|3,0,4,1,1,0,1630671507,"# this is not really needed, php-fpm is also not really needed"
+	asdsfsa
+|3,0,4,1,1,0,1630678861,"asdsfsa"
 "5	LINE	0
-	mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/
-|3,0,5,1,1,0,1630671379,"mv 10-dir-listing.conf 10-rewrite.conf /etc/lighttpd/conf-enabled/"
+	asdsfsa
+|3,0,5,1,1,0,1630678861,"asdsfsa"
 "6	LINE	0
-	cd /etc/lighttpd/conf-available/
-|3,0,6,1,1,0,1630671379,"cd /etc/lighttpd/conf-available/"
+	echo "asdf";
+|3,0,6,1,1,0,1630678565,"echo \"asdf\";"
 "7	LINE	0
-	systemctl enable xonotic 
-|3,0,7,1,1,0,1630670823,"systemctl enable xonotic "
+	sadsafds
+|3,0,7,1,1,0,1630678550,"sadsafds"
 "8	LINE	0
-	sys_ticrate 0.0242424
-|3,0,8,1,1,0,1630614459,"sys_ticrate 0.0242424"
+	$Parsedown->setMarkupEscaped(false);
+|3,0,8,1,1,0,1630678113,"$Parsedown->setMarkupEscaped(false);"
 "9	LINE	0
-	sv_motd "Visit http://xonotic.us.to/ for full server config with pk3 files." 
-|3,0,9,1,1,0,1630614436,"sv_motd \"Visit http://xonotic.us.to/ for full server config with pk3 files.\" "
-"-	CHAR	0
-	GIT=;cd /home/xonotic/;git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
-|3,0,36,0,1,0,1630676093,"GIT=;cd /home/xonotic/;git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m \".\"; git push"
+	$Parsedown->setMarkupEscaped(false);
+|3,0,9,1,1,0,1630677881,"$Parsedown->setMarkupEscaped(false);"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1630679907," "
 
 # File marks:
-'0  1  0  ~/www/index.html
-|4,48,1,0,1630677590,"~/www/index.html"
-'1  25  0  ~/www/index.html
-|4,49,25,0,1630677571,"~/www/index.html"
-'2  25  0  ~/www/index.html
-|4,50,25,0,1630677571,"~/www/index.html"
-'3  1  0  /tmp/crontab.Zflbn9/crontab
-|4,51,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
-'4  24  189  /tmp/crontab.FEIdMY/crontab
-|4,52,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
-'5  20  16  ~/www/index.html
-|4,53,20,16,1630675979,"~/www/index.html"
-'6  29  16  ~/www/index.html
-|4,54,29,16,1630675979,"~/www/index.html"
-'7  20  16  ~/www/index.html
-|4,55,20,16,1630675979,"~/www/index.html"
-'8  29  16  ~/www/index.html
-|4,56,29,16,1630675979,"~/www/index.html"
-'9  20  16  ~/www/index.html
-|4,57,20,16,1630673589,"~/www/index.html"
+'0  121  6  ~/www/README.md
+|4,48,121,6,1630680037,"~/www/README.md"
+'1  35  125  ~/www/index.php
+|4,49,35,125,1630679533,"~/www/index.php"
+'2  12  0  ~/www/index.php
+|4,50,12,0,1630679291,"~/www/index.php"
+'3  12  0  ~/www/index.php
+|4,51,12,0,1630679291,"~/www/index.php"
+'4  1  0  www/index.php
+|4,52,1,0,1630679041,"www/index.php"
+'5  7  0  ~/www/Parsedown.php
+|4,53,7,0,1630679037,"~/www/Parsedown.php"
+'6  43  0  ~/www/index.php
+|4,54,43,0,1630678980,"~/www/index.php"
+'7  36  0  ~/www/index.php
+|4,55,36,0,1630678980,"~/www/index.php"
+'8  43  0  ~/www/index.php
+|4,56,43,0,1630678980,"~/www/index.php"
+'9  36  0  ~/www/index.php
+|4,57,36,0,1630678980,"~/www/index.php"
 
 # Jumplist (newest first):
--'  1  0  ~/www/index.html
-|4,39,1,0,1630677590,"~/www/index.html"
--'  25  0  ~/www/index.html
-|4,39,25,0,1630677571,"~/www/index.html"
--'  25  0  ~/www/index.html
-|4,39,25,0,1630677571,"~/www/index.html"
--'  20  16  ~/www/index.html
-|4,39,20,16,1630677454,"~/www/index.html"
--'  20  16  ~/www/index.html
-|4,39,20,16,1630677454,"~/www/index.html"
--'  1  0  /tmp/crontab.Zflbn9/crontab
-|4,39,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
--'  1  0  /tmp/crontab.Zflbn9/crontab
-|4,39,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
--'  1  0  /tmp/crontab.Zflbn9/crontab
-|4,39,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
--'  1  0  /tmp/crontab.Zflbn9/crontab
-|4,39,1,0,1630676107,"/tmp/crontab.Zflbn9/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  24  189  /tmp/crontab.FEIdMY/crontab
-|4,39,24,189,1630676105,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  1  0  /tmp/crontab.FEIdMY/crontab
-|4,39,1,0,1630676051,"/tmp/crontab.FEIdMY/crontab"
--'  29  16  ~/www/index.html
-|4,39,29,16,1630675979,"~/www/index.html"
--'  29  16  ~/www/index.html
-|4,39,29,16,1630675979,"~/www/index.html"
--'  29  16  ~/www/index.html
-|4,39,29,16,1630675979,"~/www/index.html"
--'  29  16  ~/www/index.html
-|4,39,29,16,1630675979,"~/www/index.html"
--'  29  16  ~/www/index.html
-|4,39,29,16,1630675979,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673607,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673607,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673607,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673607,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673607,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673589,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673589,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673589,"~/www/index.html"
--'  30  16  ~/www/index.html
-|4,39,30,16,1630673589,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673569,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673565,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673565,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673565,"~/www/index.html"
--'  80  19  ~/www/index.html
-|4,39,80,19,1630673565,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  76  0  ~/www/index.html
-|4,39,76,0,1630673498,"~/www/index.html"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
--'  2  28  ~/.selected_editor
-|4,39,2,28,1630673404,"~/.selected_editor"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  2  0  ~/www/README.md
+|4,39,2,0,1630679600,"~/www/README.md"
+-'  1  0  ~/www/README.md
+|4,39,1,0,1630679597,"~/www/README.md"
+-'  35  125  ~/www/index.php
+|4,39,35,125,1630679533,"~/www/index.php"
+-'  35  125  ~/www/index.php
+|4,39,35,125,1630679533,"~/www/index.php"
+-'  34  0  ~/www/index.php
+|4,39,34,0,1630679487,"~/www/index.php"
+-'  34  0  ~/www/index.php
+|4,39,34,0,1630679487,"~/www/index.php"
+-'  26  15  ~/www/index.php
+|4,39,26,15,1630679486,"~/www/index.php"
+-'  26  15  ~/www/index.php
+|4,39,26,15,1630679486,"~/www/index.php"
+-'  27  39  ~/www/index.php
+|4,39,27,39,1630679480,"~/www/index.php"
+-'  28  36  ~/www/index.php
+|4,39,28,36,1630679480,"~/www/index.php"
+-'  29  39  ~/www/index.php
+|4,39,29,39,1630679480,"~/www/index.php"
+-'  30  39  ~/www/index.php
+|4,39,30,39,1630679480,"~/www/index.php"
+-'  31  35  ~/www/index.php
+|4,39,31,35,1630679480,"~/www/index.php"
+-'  27  39  ~/www/index.php
+|4,39,27,39,1630679480,"~/www/index.php"
+-'  28  36  ~/www/index.php
+|4,39,28,36,1630679480,"~/www/index.php"
+-'  29  39  ~/www/index.php
+|4,39,29,39,1630679480,"~/www/index.php"
+-'  30  39  ~/www/index.php
+|4,39,30,39,1630679480,"~/www/index.php"
+-'  31  35  ~/www/index.php
+|4,39,31,35,1630679480,"~/www/index.php"
+-'  32  38  ~/www/index.php
+|4,39,32,38,1630679479,"~/www/index.php"
+-'  33  42  ~/www/index.php
+|4,39,33,42,1630679479,"~/www/index.php"
+-'  32  38  ~/www/index.php
+|4,39,32,38,1630679479,"~/www/index.php"
+-'  33  42  ~/www/index.php
+|4,39,33,42,1630679479,"~/www/index.php"
+-'  12  0  ~/www/index.php
+|4,39,12,0,1630679382,"~/www/index.php"
+-'  12  0  ~/www/index.php
+|4,39,12,0,1630679382,"~/www/index.php"
+-'  12  0  ~/www/index.php
+|4,39,12,0,1630679291,"~/www/index.php"
+-'  12  0  ~/www/index.php
+|4,39,12,0,1630679291,"~/www/index.php"
+-'  10  14  ~/www/index.php
+|4,39,10,14,1630679226,"~/www/index.php"
+-'  10  14  ~/www/index.php
+|4,39,10,14,1630679226,"~/www/index.php"
+-'  10  14  ~/www/index.php
+|4,39,10,14,1630679226,"~/www/index.php"
+-'  10  14  ~/www/index.php
+|4,39,10,14,1630679226,"~/www/index.php"
+-'  7  0  ~/www/index.php
+|4,39,7,0,1630679132,"~/www/index.php"
+-'  7  0  ~/www/index.php
+|4,39,7,0,1630679132,"~/www/index.php"
+-'  7  0  ~/www/index.php
+|4,39,7,0,1630679132,"~/www/index.php"
+-'  7  0  ~/www/index.php
+|4,39,7,0,1630679132,"~/www/index.php"
+-'  43  0  ~/www/index.php
+|4,39,43,0,1630679043,"~/www/index.php"
+-'  43  0  ~/www/index.php
+|4,39,43,0,1630679043,"~/www/index.php"
+-'  43  0  ~/www/index.php
+|4,39,43,0,1630679043,"~/www/index.php"
+-'  43  0  ~/www/index.php
+|4,39,43,0,1630679043,"~/www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  1  0  www/index.php
+|4,39,1,0,1630679041,"www/index.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  7  0  ~/www/Parsedown.php
+|4,39,7,0,1630679037,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  1  0  ~/www/Parsedown.php
+|4,39,1,0,1630678997,"~/www/Parsedown.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630678980,"~/www/index.php"
+-'  47  1  ~/www/index.php
+|4,39,47,1,1630678444,"~/www/index.php"
+-'  40  1  ~/www/index.php
+|4,39,40,1,1630678444,"~/www/index.php"
+-'  47  1  ~/www/index.php
+|4,39,47,1,1630678444,"~/www/index.php"
+-'  40  1  ~/www/index.php
+|4,39,40,1,1630678444,"~/www/index.php"
+-'  40  1  ~/www/index.php
+|4,39,40,1,1630678444,"~/www/index.php"
+-'  40  1  ~/www/index.php
+|4,39,40,1,1630678444,"~/www/index.php"
+-'  40  1  ~/www/index.php
+|4,39,40,1,1630678444,"~/www/index.php"
+-'  47  1  ~/www/index.php
+|4,39,47,1,1630678444,"~/www/index.php"
+-'  40  1  ~/www/index.php
+|4,39,40,1,1630678444,"~/www/index.php"
 
 # History of marks within files (newest to oldest):
 
+> ~/www/README.md
+	*	1630680015	0
+	"	121	6
+	^	121	7
+	.	121	6
+	+	11	11
+	+	12	12
+	+	1	6
+	+	13	0
+	+	24	30
+	+	110	45
+	+	113	100
+	+	113	0
+	+	113	146
+	+	120	131
+	+	120	46
+	+	120	133
+	+	121	6
+
+> ~/www/index.php
+	*	1630679532	0
+	"	35	125
+	^	35	126
+	.	34	13
+	+	46	36
+	+	46	0
+	+	47	0
+	+	1	6
+	+	4	6
+	+	5	23
+	+	6	13
+	+	17	5
+	+	49	6
+	+	4	2
+	+	5	21
+	+	47	0
+	+	46	1
+	+	39	30
+	+	42	0
+	+	39	0
+	+	48	6
+	+	48	2
+	+	48	0
+	+	45	0
+	+	8	6
+	+	8	13
+	+	7	0
+	+	13	1
+	+	8	49
+	+	9	0
+	+	8	24
+	+	10	9
+	+	12	19
+	+	12	12
+	+	10	9
+	+	12	14
+	+	10	0
+	+	12	15
+	+	10	15
+	+	13	0
+	+	26	5
+	+	34	11
+	+	26	26
+	+	34	0
+	+	27	43
+	+	28	40
+	+	29	43
+	+	30	43
+	+	31	39
+	+	32	42
+	+	33	46
+	+	26	20
+	+	34	13
+
+> www/index.php
+	*	1630679040	0
+	"	1	0
+
+> ~/www/Parsedown.php
+	*	1630679037	0
+	"	7	0
+	^	1995	0
+	.	1994	1
+	+	1	5
+	+	1994	1
+
+> ~/README.md
+	*	1630678443	0
+	"	9	0
+	^	9	7
+	.	9	0
+	+	9	0
+
 > ~/www/index.html
-	*	1630677589	0
+	*	1630677681	0
 	"	1	0
 	^	29	2
 	.	25	0

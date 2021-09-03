@@ -1,4 +1,4 @@
-SUMMARY
+Summary
 =======
 
 I created a backup of my entire Xonotic server config, including all pk3 files, [on Github](https://github.com/ballerburg9005/xonotic.us.to).
@@ -8,9 +8,8 @@ It includes complete instructions how you can set up this server by yourself.
 My server does also display those instructions on http://xonotic.us.to .
 <p><br>
 
-Steps to set up my Xonotic server on Ubuntu
-===========================================
-<br>
+Instructions
+============
 
 Prepare the system. Install packages, setup xonotic user, use zsh:
 ```
@@ -21,7 +20,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # --- > put your id_rsa.pub into /root/.ssh/authorized_keys
 # also add your root account's id_rsa.pub, if you want to run cronjob backups that preserve ownership
- 
+
+# keeps things all in one place 
 rm -r /var/www/html
 ln -s /home/xonotic/www /var/www/html
  
@@ -107,15 +107,15 @@ echo 0 > /selinux/enforce
  
 Github
 ======
-If you are curious: To create this Github, I simply created a new account there, added an 
+If you are curious: To mirror my server files on Github, I simply created a new account there, added an 
 access token to it and then on my main account I granted that user access 
 to an empty repo. Then I logged in as xonotic on my server and edited the
-.git/config to include the user:accesstoken@ before the URL and changed it to my empty repo. Then I di regularly update it with 
-the following command added to a crontab of the xonotic user: 
+.git/config to include the user:accesstoken@ before the URL and changed it to my empty repo. I update the repo with a cronjob for the user xonotic: 
 
 ```
 GIT=;cd /home/xonotic/; git config --global http.postBuffer 1048576000; git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
 ```
 <br>
 
-This command needs to be tested first. Also note that it adds the entire home directory, which is usually considered to be insecure.
+Note that the command needs to be tested first, and that adding your home directory is insecure if you don't know what you are doing.
+<p><br>
