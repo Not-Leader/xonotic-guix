@@ -79,7 +79,7 @@ systemctl start lighttpd xonotic
 ```
 <br><p>
 
-USEFUL: If you download new maps, then this command gives you a nice updated list from the ZIP files (paste it in server.cfg):
+USEFUL: If you download new maps, then this gives you an updated list (paste it in server.cfg):
 ```
 MAPUPDATE=;IFS=$'\n'; echo -n "\n\ng_maplist \""; for i in /home/xonotic/.xonotic/data/*.pk3; do if unzip -l "$i" | grep -q '\.bsp$'; then echo -n "$(unzip -l "$i" | grep '[^/]*\.bsp$' -osa | sed "s/\.bsp$//g" | tr '\n' ' ')"; fi; done; echo "\"\n\n"
 ```
