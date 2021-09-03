@@ -97,16 +97,15 @@ XONOTICSERVER=; ssh -t root@xonotic.us.to "su xonotic -c 'screen -r xonotic-serv
 ```
 <br>
 
-To create a backup on Github, I created a new account there, added an 
-access token to it and then on my main account granted that user access 
-to an empty repo. Then logged in as xonotic on my server I simply cloned
- that repo, copied the .git directory to /home/xonotic, edited 
-.git/config to include the user:accesstoken@ before the URL and added 
-the following to a crontab of the xonotic user: 
+To create a backup on Github, simply create a new account there, add an 
+access token to it and then on your main account grant that user access 
+to an empty repo. Then login as xonotic on your server and edit the
+.git/config to include the user:accesstoken@ before the URL and change it to your empty repo. Then you can regularly update it with 
+the following command added to a crontab of the xonotic user: 
 
 ```
 GIT=;cd /home/xonotic/; git config --global http.postBuffer 1048576000; git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m "."; git push
 ```
 <br>
 
-You should test this command first, it will not work without minor additional steps.
+You should test this command first. Also note that it adds the entire home directory, which is usually considered to be insecure.
