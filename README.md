@@ -1,3 +1,6 @@
+SUMMARY
+=======
+
 I created a backup of my entire Xonotic server config, including all pk3 files, [on Github](https://github.com/ballerburg9005/xonotic.us.to).
 
 It includes complete instructions how you can set up this server by yourself. 
@@ -42,7 +45,7 @@ rm Xonotic-`date +%Y%m%d  --date="3 days ago"`.zip
 
 Download the maps and server config from my github repository:
 ```
-git clone https://github.com/ballerburg9005/
+git clone https://github.com/ballerburg9005/xonotic.us.to
  
 mv xonotic.us.to/* xonotic.us.to/.* ./
 chmod 700 /home/xonotic/.xonotic/data/data
@@ -52,9 +55,8 @@ rm -r xonotic.us.to
 
 **Edit /home/xonotic/.xonotic/data/server.cfg!**:
 ```
-export MYSERVER="example.com" # (or ip address like 15.26.37.48)
+export MYSERVER="example.com" # (or ip address like 15.26.37.48) THIS NEEDS TO BE CORRECT
 sed "s/xonotic\.us\.to/$MYSERVER/g" -i /home/xonotic/.xonotic/data/server.cfg
-sed "s/xonotic\.us\.to/$MYSERVER/g" -i /home/xonotic/README.md
 
 # you can control the server if connected inside Xonotic as a player with this password
 echo '//rcon_password "SuperSecretPassword6666666"' >  /home/xonotic/.xonotic/data/secret.cfg # remove //
@@ -93,12 +95,22 @@ USEFUL: SSH directly into interactive Xonotic server console (from remote machin
 ```
 XONOTICSERVER=; ssh -t root@xonotic.us.to "su xonotic -c 'screen -r xonotic-server'"
 ```
-<br>
-
-To create a backup on Github, simply create a new account there, add an 
-access token to it and then on your main account grant that user access 
-to an empty repo. Then login as xonotic on your server and edit the
-.git/config to include the user:accesstoken@ before the URL and change it to your empty repo. Then you can regularly update it with 
+ 
+Troubleshooting
+===============
+ 
+Disable firewall or selinux:
+```
+iptables -I INPUT -j ACCEPT
+echo 0 > /selinux/enforce
+```
+ 
+Github
+======
+If you are curious: To create this Github, I simply created a new account there, added an 
+access token to it and then on my main account I granted that user access 
+to an empty repo. Then I logged in as xonotic on my server and edited the
+.git/config to include the user:accesstoken@ before the URL and changed it to my empty repo. Then I di regularly update it with 
 the following command added to a crontab of the xonotic user: 
 
 ```
@@ -106,4 +118,4 @@ GIT=;cd /home/xonotic/; git config --global http.postBuffer 1048576000; git pull
 ```
 <br>
 
-You should test this command first. Also note that it adds the entire home directory, which is usually considered to be insecure.
+This command needs to be tested first. Also note that it adds the entire home directory, which is usually considered to be insecure.
