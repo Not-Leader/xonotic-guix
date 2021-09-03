@@ -1,0 +1,5 @@
+[user]
+	email = server@nomail.com
+	name = Xonotic Server
+[http]
+	postBuffer = 1048576000

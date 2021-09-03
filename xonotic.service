@@ -1,0 +1,19 @@
+[Unit]
+Description=Xonotic
+After=network.target
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+WorkingDirectory=/home/xonotic/Xonotic
+ExecStart=/usr/bin/screen -dmS xonotic-server /bin/sh -c 'echo -en "\n\n\n$(date)\n\n\n" >> /home/xonotic/xonotic.log; /home/xonotic/Xonotic/xonotic-linux-dedicated.sh 2>&1 | tee -a /home/xonotic/xonotic.log'
+User=xonotic
+Type=forking
+
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=graphical.target #check target by running: systemctl get-default
+
