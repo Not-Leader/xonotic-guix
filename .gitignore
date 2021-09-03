@@ -1,6 +1,7 @@
 .oh-my-zsh
 .xonotic/data/data
-.xonotic/key_0.d0si
+.xonotic/key_0*
+.xonotic/lock
 .xonotic/data/secret.cfg
 .zcompdump*
 xonotic.log
