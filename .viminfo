@@ -20,10 +20,12 @@
 $/home/xonotic
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1630673347,,"wq"
 :q
-|2,0,1630671859,,"q"
+|2,0,1630673404,,"q"
+:wq
+|2,0,1630673397,,"wq"
+:weq
+|2,0,1630673387,,"weq"
 :qw
 |2,0,1630671745,,"qw"
 :w
@@ -128,38 +130,212 @@ $/home/xonotic
 |3,0,36,0,1,0,1630436485,"git pull; git submodule update --remote --recursive; git add -u; git add  * .*; git commit -m \".\"; git push"
 
 # File marks:
-'0  9  7  ~/.gitignore
-|4,48,9,7,1630673347,"~/.gitignore"
-'1  4  12  ~/.gitignore
-|4,49,4,12,1630672685,"~/.gitignore"
-'2  4  12  ~/.gitignore
-|4,50,4,12,1630672685,"~/.gitignore"
-'3  7  69  ~/.git/config
-|4,51,7,69,1630672525,"~/.git/config"
-'4  274  0  ~/.zsh_history
-|4,52,274,0,1630672325,"~/.zsh_history"
-'5  7  50  ~/.git/config
-|4,53,7,50,1630671859,"~/.git/config"
-'6  6  10  ~/.gitignore
-|4,54,6,10,1630671838,"~/.gitignore"
-'7  5  10  ~/.gitignore
-|4,55,5,10,1630671838,"~/.gitignore"
-'8  6  10  ~/.gitignore
-|4,56,6,10,1630671838,"~/.gitignore"
-'9  5  10  ~/.gitignore
-|4,57,5,10,1630671838,"~/.gitignore"
+'0  2  28  ~/.selected_editor
+|4,48,2,28,1630673404,"~/.selected_editor"
+'1  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,49,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+'2  2  28  ~/.selected_editor
+|4,50,2,28,1630673397,"~/.selected_editor"
+'3  2  24  ~/.selected_editor
+|4,51,2,24,1630673388,"~/.selected_editor"
+'4  2  24  ~/.selected_editor
+|4,52,2,24,1630673388,"~/.selected_editor"
+'5  9  7  ~/.gitignore
+|4,53,9,7,1630673347,"~/.gitignore"
+'6  4  12  ~/.gitignore
+|4,54,4,12,1630672685,"~/.gitignore"
+'7  4  12  ~/.gitignore
+|4,55,4,12,1630672685,"~/.gitignore"
+'8  7  69  ~/.git/config
+|4,56,7,69,1630672525,"~/.git/config"
+'9  274  0  ~/.zsh_history
+|4,57,274,0,1630672325,"~/.zsh_history"
 
 # Jumplist (newest first):
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673404,"~/.selected_editor"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  1  0  /tmp/crontab.c2Ob0A/crontab
+|4,39,1,0,1630673401,"/tmp/crontab.c2Ob0A/crontab"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673397,"~/.selected_editor"
+-'  2  28  ~/.selected_editor
+|4,39,2,28,1630673397,"~/.selected_editor"
+-'  2  24  ~/.selected_editor
+|4,39,2,24,1630673388,"~/.selected_editor"
+-'  2  24  ~/.selected_editor
+|4,39,2,24,1630673388,"~/.selected_editor"
+-'  1  0  ~/.selected_editor
+|4,39,1,0,1630673383,"~/.selected_editor"
+-'  1  0  ~/.selected_editor
+|4,39,1,0,1630673383,"~/.selected_editor"
+-'  1  0  ~/.selected_editor
+|4,39,1,0,1630673383,"~/.selected_editor"
+-'  1  0  ~/.selected_editor
+|4,39,1,0,1630673383,"~/.selected_editor"
+-'  1  0  ~/.selected_editor
+|4,39,1,0,1630673383,"~/.selected_editor"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
+-'  9  7  ~/.gitignore
+|4,39,9,7,1630673347,"~/.gitignore"
 -'  9  7  ~/.gitignore
 |4,39,9,7,1630673347,"~/.gitignore"
 -'  4  12  ~/.gitignore
 |4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630673318,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
+-'  4  12  ~/.gitignore
+|4,39,4,12,1630672685,"~/.gitignore"
 -'  4  12  ~/.gitignore
 |4,39,4,12,1630672685,"~/.gitignore"
 -'  6  10  ~/.gitignore
 |4,39,6,10,1630672669,"~/.gitignore"
 -'  6  10  ~/.gitignore
 |4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
+-'  6  10  ~/.gitignore
+|4,39,6,10,1630672669,"~/.gitignore"
 -'  7  69  ~/.git/config
 |4,39,7,69,1630672525,"~/.git/config"
 -'  7  69  ~/.git/config
@@ -168,190 +344,27 @@ $/home/xonotic
 |4,39,7,69,1630672525,"~/.git/config"
 -'  7  69  ~/.git/config
 |4,39,7,69,1630672525,"~/.git/config"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  274  0  ~/.zsh_history
-|4,39,274,0,1630672325,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  49  0  ~/.zsh_history
-|4,39,49,0,1630672319,"~/.zsh_history"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  7  50  ~/.git/config
-|4,39,7,50,1630671859,"~/.git/config"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  5  10  ~/.gitignore
-|4,39,5,10,1630671838,"~/.gitignore"
--'  11  6  ~/.gitignore
-|4,39,11,6,1630671802,"~/.gitignore"
--'  10  6  ~/.gitignore
-|4,39,10,6,1630671802,"~/.gitignore"
--'  8  6  ~/.gitignore
-|4,39,8,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  7  6  ~/.gitignore
-|4,39,7,6,1630671802,"~/.gitignore"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
--'  78  0  ~/www/index.html
-|4,39,78,0,1630671746,"~/www/index.html"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630672525,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630672525,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630672525,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1630672525,"~/.git/config"
 
 # History of marks within files (newest to oldest):
+
+> ~/.selected_editor
+	*	1630673403	0
+	"	2	28
+	^	2	29
+	.	2	28
+	+	2	28
+
+> /tmp/crontab.c2Ob0A/crontab
+	*	1630673399	0
+	"	1	0
 
 > ~/.gitignore
 	*	1630673347	0
