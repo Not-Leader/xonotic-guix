@@ -21,9 +21,9 @@ $/home/xonotic
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1630683218,,"q"
+|2,0,1630685514,,"q"
 :w
-|2,0,1630683217,,"w"
+|2,0,1630685513,,"w"
 :s
 |2,0,1630682629,,"s"
 :qw
@@ -135,38 +135,56 @@ $/home/xonotic
 |3,1,36,0,1,0,1630683213," "
 
 # File marks:
-'0  8  22  ~/www/README.md
-|4,48,8,22,1630683218,"~/www/README.md"
-'1  27  38  ~/www/index.php
-|4,49,27,38,1630683205,"~/www/index.php"
-'2  1  0  ~/index.php
-|4,50,1,0,1630682616,"~/index.php"
-'3  91  2  ~/README.md
-|4,51,91,2,1630682612,"~/README.md"
-'4  121  6  ~/www/README.md
-|4,52,121,6,1630680037,"~/www/README.md"
-'5  121  6  ~/www/README.md
-|4,53,121,6,1630680037,"~/www/README.md"
-'6  37  125  ~/www/index.php
-|4,54,37,125,1630679533,"~/www/index.php"
-'7  35  125  ~/www/index.php
-|4,55,35,125,1630679533,"~/www/index.php"
-'8  13  0  ~/www/index.php
-|4,56,13,0,1630679291,"~/www/index.php"
-'9  13  0  ~/www/index.php
-|4,57,13,0,1630679291,"~/www/index.php"
+'0  96  74  ~/README.md
+|4,48,96,74,1630685514,"~/README.md"
+'1  8  22  ~/www/README.md
+|4,49,8,22,1630683218,"~/www/README.md"
+'2  27  38  ~/www/index.php
+|4,50,27,38,1630683205,"~/www/index.php"
+'3  1  0  ~/index.php
+|4,51,1,0,1630682616,"~/index.php"
+'4  91  2  ~/README.md
+|4,52,91,2,1630682612,"~/README.md"
+'5  91  2  ~/README.md
+|4,53,91,2,1630682612,"~/README.md"
+'6  121  6  ~/www/README.md
+|4,54,121,6,1630680037,"~/www/README.md"
+'7  121  6  ~/www/README.md
+|4,55,121,6,1630680037,"~/www/README.md"
+'8  37  125  ~/www/index.php
+|4,56,37,125,1630679533,"~/www/index.php"
+'9  35  125  ~/www/index.php
+|4,57,35,125,1630679533,"~/www/index.php"
 
 # Jumplist (newest first):
+-'  96  74  ~/README.md
+|4,39,96,74,1630685514,"~/README.md"
+-'  91  2  ~/README.md
+|4,39,91,2,1630685501,"~/README.md"
+-'  8  22  ~/www/README.md
+|4,39,8,22,1630683218,"~/www/README.md"
 -'  8  22  ~/www/README.md
 |4,39,8,22,1630683218,"~/www/README.md"
 -'  122  0  ~/www/README.md
 |4,39,122,0,1630683209,"~/www/README.md"
+-'  122  0  ~/www/README.md
+|4,39,122,0,1630683209,"~/www/README.md"
+-'  121  3  ~/www/README.md
+|4,39,121,3,1630683206,"~/www/README.md"
 -'  121  3  ~/www/README.md
 |4,39,121,3,1630683206,"~/www/README.md"
 -'  27  38  ~/www/index.php
 |4,39,27,38,1630683205,"~/www/index.php"
 -'  27  38  ~/www/index.php
 |4,39,27,38,1630683205,"~/www/index.php"
+-'  27  38  ~/www/index.php
+|4,39,27,38,1630683205,"~/www/index.php"
+-'  27  38  ~/www/index.php
+|4,39,27,38,1630683205,"~/www/index.php"
+-'  37  125  ~/www/index.php
+|4,39,37,125,1630682619,"~/www/index.php"
+-'  37  125  ~/www/index.php
+|4,39,37,125,1630682619,"~/www/index.php"
 -'  37  125  ~/www/index.php
 |4,39,37,125,1630682619,"~/www/index.php"
 -'  37  125  ~/www/index.php
@@ -179,6 +197,14 @@ $/home/xonotic
 |4,39,1,0,1630682616,"~/index.php"
 -'  1  0  ~/index.php
 |4,39,1,0,1630682616,"~/index.php"
+-'  1  0  ~/index.php
+|4,39,1,0,1630682616,"~/index.php"
+-'  1  0  ~/index.php
+|4,39,1,0,1630682616,"~/index.php"
+-'  1  0  ~/index.php
+|4,39,1,0,1630682616,"~/index.php"
+-'  1  0  ~/index.php
+|4,39,1,0,1630682616,"~/index.php"
 -'  91  2  ~/README.md
 |4,39,91,2,1630682612,"~/README.md"
 -'  91  2  ~/README.md
@@ -211,6 +237,8 @@ $/home/xonotic
 |4,39,123,114,1630681259,"~/README.md"
 -'  123  114  ~/README.md
 |4,39,123,114,1630681259,"~/README.md"
+-'  123  114  ~/README.md
+|4,39,123,114,1630681259,"~/README.md"
 -'  9  0  ~/README.md
 |4,39,9,0,1630681079,"~/README.md"
 -'  9  0  ~/README.md
@@ -227,6 +255,24 @@ $/home/xonotic
 |4,39,9,0,1630681079,"~/README.md"
 -'  9  0  ~/README.md
 |4,39,9,0,1630681079,"~/README.md"
+-'  9  0  ~/README.md
+|4,39,9,0,1630681079,"~/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
+-'  121  6  ~/www/README.md
+|4,39,121,6,1630680037,"~/www/README.md"
 -'  121  6  ~/www/README.md
 |4,39,121,6,1630680037,"~/www/README.md"
 -'  121  6  ~/www/README.md
@@ -261,6 +307,24 @@ $/home/xonotic
 |4,39,113,61,1630679935,"~/www/README.md"
 -'  113  61  ~/www/README.md
 |4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
+-'  113  61  ~/www/README.md
+|4,39,113,61,1630679935,"~/www/README.md"
 -'  24  13  ~/www/README.md
 |4,39,24,13,1630679708,"~/www/README.md"
 -'  24  13  ~/www/README.md
@@ -279,86 +343,46 @@ $/home/xonotic
 |4,39,24,13,1630679708,"~/www/README.md"
 -'  24  13  ~/www/README.md
 |4,39,24,13,1630679708,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  2  0  ~/www/README.md
-|4,39,2,0,1630679600,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  1  0  ~/www/README.md
-|4,39,1,0,1630679597,"~/www/README.md"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  35  125  ~/www/index.php
-|4,39,35,125,1630679533,"~/www/index.php"
--'  36  0  ~/www/index.php
-|4,39,36,0,1630679487,"~/www/index.php"
--'  34  0  ~/www/index.php
-|4,39,34,0,1630679487,"~/www/index.php"
--'  34  0  ~/www/index.php
-|4,39,34,0,1630679487,"~/www/index.php"
--'  34  0  ~/www/index.php
-|4,39,34,0,1630679487,"~/www/index.php"
--'  34  0  ~/www/index.php
-|4,39,34,0,1630679487,"~/www/index.php"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
+-'  24  13  ~/www/README.md
+|4,39,24,13,1630679708,"~/www/README.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1630685513	0
+	"	96	74
+	^	96	75
+	.	96	74
+	+	9	0
+	+	81	16
+	+	81	15
+	+	84	0
+	+	90	0
+	+	96	0
+	+	100	6
+	+	104	0
+	+	81	0
+	+	10	0
+	+	81	0
+	+	101	0
+	+	109	0
+	+	110	0
+	+	123	169
+	+	123	163
+	+	90	46
+	+	96	74
 
 > ~/www/README.md
 	*	1630683217	0
@@ -448,28 +472,6 @@ $/home/xonotic
 > ~/index.php
 	*	1630682615	0
 	"	1	0
-
-> ~/README.md
-	*	1630682612	0
-	"	91	2
-	^	123	87
-	.	123	163
-	+	9	0
-	+	81	16
-	+	81	15
-	+	84	0
-	+	90	0
-	+	96	0
-	+	100	6
-	+	104	0
-	+	81	0
-	+	10	0
-	+	81	0
-	+	101	0
-	+	109	0
-	+	110	0
-	+	123	169
-	+	123	163
 
 > www/index.php
 	*	1630679040	0

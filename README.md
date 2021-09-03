@@ -87,13 +87,13 @@ MAPUPDATE=;IFS=$'\n'; echo -n "\n\ng_maplist \""; for i in /home/xonotic/.xonoti
 ```
 <br>
 
-Backup command for cronjob (on remote machine)
+Backup command for cronjob (on remote machine):
 ```
 rsync --exclude 'Xonotic' -ra root@xonotic.us.to:/home/xonotic/ /mnt/1/BACKUP/XONOTIC_SERVER/
 ```
 <br>
 
-SSH directly into interactive Xonotic server console (from remote machine)
+SSH directly into interactive Xonotic server console (from remote machine):
 ```
 XONOTICSERVER=; ssh -t root@xonotic.us.to "su xonotic -c 'screen -r xonotic-server'"
 ```
