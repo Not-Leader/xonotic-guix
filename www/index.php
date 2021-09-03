@@ -4,8 +4,9 @@
 pre {
 background-color: #EEE;
 padding: 20px;
+overflow: auto;
 }
-@media (min-width:320px) {
+@media (min-width:640px) {
 html {
 padding: 0px 10%;
 }
@@ -13,16 +14,17 @@ padding: 0px 10%;
 }
 
 </style>
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <p><br>
 <center>
-	<img src="https://xonotic.org/static/img/xonotic-logo.png"><br>
+	<img src="https://xonotic.org/static/img/xonotic-logo.png" style="max-width: 98%"><br>
 <div style="padding: 20px; background-color: #EEFFEE; font-size: 14pt; display: inline-block; font-weight: bold">
-Hi. This is just some 3 Euro VPS from OVH which I use as Xonotic server. It seems to handle at least 16 players. <p>
-Check out <a href="https://xonotic.org">Xonotic</a> and <a href="https://ballerburg.us.to">my website</a>.<p>
-</div><p>
-OVH offers the following locations:
+Hi. This is just some 3 Euro VPS from OVH which I use as Xonotic server. It seems to handle at least 16 players. <br> &nbsp; <br>
+Check out <a href="https://xonotic.org">Xonotic</a> and <a href="https://ballerburg.us.to">my website</a>.
+</div><p><br>
+OVH offers the following locations:<br>
 <div style="display: inline-block"><pre>
 North America, Canada, Beauharnois (BHS)
 Pacific Asia, Australia, Sydney (SYD)

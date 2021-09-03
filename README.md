@@ -5,7 +5,7 @@ I created a backup of my entire Xonotic server config, including all pk3 files, 
 
 It includes complete instructions how you can set up this server by yourself. 
  
-My server does also display those instructions on http://xonotic.us.to .
+My server also displays those instructions on http://xonotic.us.to .
 <p><br>
 
 Instructions
@@ -79,32 +79,35 @@ systemctl start lighttpd xonotic
 ```
 <br><p>
 
-USEFUL: If you download new maps, then this gives you an updated list (paste it in server.cfg):
+Useful commands
+===============
+If you download new maps, then this gives you an updated list (paste it in server.cfg):
 ```
 MAPUPDATE=;IFS=$'\n'; echo -n "\n\ng_maplist \""; for i in /home/xonotic/.xonotic/data/*.pk3; do if unzip -l "$i" | grep -q '\.bsp$'; then echo -n "$(unzip -l "$i" | grep '[^/]*\.bsp$' -osa | sed "s/\.bsp$//g" | tr '\n' ' ')"; fi; done; echo "\"\n\n"
 ```
 <br>
 
-USEFUL: Backup command for cronjob (on remote machine)
+Backup command for cronjob (on remote machine)
 ```
 rsync --exclude 'Xonotic' -ra root@xonotic.us.to:/home/xonotic/ /mnt/1/BACKUP/XONOTIC_SERVER/
 ```
 <br>
 
-USEFUL: SSH directly into interactive Xonotic server console (from remote machine)
+SSH directly into interactive Xonotic server console (from remote machine)
 ```
 XONOTICSERVER=; ssh -t root@xonotic.us.to "su xonotic -c 'screen -r xonotic-server'"
 ```
- 
+<br><p> 
+
 Troubleshooting
 ===============
- 
 Disable firewall or selinux:
 ```
 iptables -I INPUT -j ACCEPT
 echo 0 > /selinux/enforce
 ```
- 
+<br><p> 
+
 Github
 ======
 If you are curious: To mirror my server files on Github, I simply created a new account there, added an 
@@ -117,5 +120,5 @@ GIT=;cd /home/xonotic/; git config --global http.postBuffer 1048576000; git pull
 ```
 <br>
 
-Note that the command needs to be tested first, and that adding your home directory is insecure if you don't know what you are doing.
+Note that the command needs to be tested first. Uploading the home directory to Github ordinarily is to be considered insecure, for good reason that do not apply to my case.
 <p><br>
