@@ -19,7 +19,7 @@ apt install unzip zsh curl wget screen lighttpd vim php php-cgi php-mysql git rs
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # --- > put your id_rsa.pub into /root/.ssh/authorized_keys
-# also add your root account's id_rsa.pub, if you want to run cronjob backups that preserve ownership
+# also add your root account's id_rsa.pub, if you want to run cronjob backups
 
 # keeps things all in one place 
 rm -r /var/www/html
