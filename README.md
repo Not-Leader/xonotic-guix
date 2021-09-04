@@ -59,7 +59,7 @@ export MYSERVER="example.com" # (or ip address like 15.26.37.48) THIS NEEDS TO B
 sed "s/xonotic\.us\.to/$MYSERVER/g" -i /home/xonotic/.xonotic/data/server.cfg
 
 # you can control the server if connected inside Xonotic as a player with this password
-echo '//rcon_password "SuperSecretPassword6666666"' >  /home/xonotic/.xonotic/data/secret.cfg # remove //
+echo '//rcon_password "SuperSecret"' >  /home/xonotic/.xonotic/data/secret.cfg # remove //
 chmod 700 /home/xonotic/.xonotic/data/secret.cfg
 ```
 
