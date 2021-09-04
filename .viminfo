@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Edit
+~MSle0~/nex
 
 # Last Substitute Search Pattern:
 ~MSle0&\$HOME
@@ -20,16 +20,16 @@
 $/home/xonotic
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1630710275,,"w"
+:wq
+|2,0,1630705953,,"wq"
 :q
 |2,0,1630704847,,"q"
-:w
-|2,0,1630704832,,"w"
 ::q
 |2,0,1630704633,,":q"
 :we
 |2,0,1630704382,,"we"
-:wq
-|2,0,1630704319,,"wq"
 :q1
 |2,0,1630703549,,"q1"
 :s
@@ -52,6 +52,12 @@ $/home/xonotic
 |2,0,1630430656,,"eqw"
 
 # Search String History (newest to oldest):
+?/nex
+|2,1,1630705932,47,"nex"
+?/ct
+|2,1,1630705924,47,"ct"
+?/ct2
+|2,1,1630705917,47,"ct2"
 ?/Edit
 |2,1,1630704527,47,"Edit"
 ?/Exi
@@ -113,68 +119,105 @@ $/home/xonotic
 "0	LINE	0
 	<br><p> 
 |3,0,0,1,1,0,1630681179,"<br><p> "
-""1	LINE	0
-	mv xonotic.us.to/* xonotic.us.to/.* ./
-|3,1,1,1,1,0,1630685793,"mv xonotic.us.to/* xonotic.us.to/.* ./"
+"1	LINE	0
+	607
+<g_maplist "79drgc2 Bal3dm4_nex_r1 CMP1-dm6 Fjo3tourney2_nex_r1 abyss acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1 cht2_nex_r1 cht3_nex_r1 curse_v2 deck_v2 dieselpower distonic dm_nexdm3 docs_cyber_core_insta dsi dubneoc ek3dm1_nex_r1 fr3dm1_nex_r1 g-23 geo-core hub3aeroq3a_nex_r1 ikzdm1 kaznexdm1 klzegypt lightspeed lun3dm4_nex_r1 epsilon-b5 limbo revrem stone_sea newtonian-nightmare peasants_palace q3dm17ish quark_v4 breathium red-planet resist-desaturation revdm3pro rom spaceapple-v2 straledm5 thehighestground toxic_fabric tuhma cubes-x03-r02_melano1"
+|3,0,1,1,1,0,1630705832,>608
+|<"g_maplist \"79drgc2 Bal3dm4_nex_r1 CMP1-dm6 Fjo3tourney2_nex_r1 abyss acid3dm5 af3hex aggressor_remix ame7q3dm3 ascension bal3dm5 bloodyrun chiropteradm_nex_r1 cht2_nex_r1 cht3_nex_r1 curse_v2 deck_v2 dieselpower distonic dm_nexdm3 docs_cyber_core_insta dsi dubneoc ek3dm1_nex_r1 fr3dm1_nex_r1 g-23 geo-core hub3aeroq3a_nex_r1 ikzdm1 kaznexdm1 klzegypt lightspeed lun3dm4_nex_r1 epsilon-b5 limbo revrem stone_sea newtonian-nightmare peasants_palace q3dm17ish quark_v4 breathium red-planet r
+|<esist-desaturation revdm3pro rom spaceapple-v2 straledm5 thehighestground toxic_fabric tuhma cubes-x03-r02_melano1\""
 "2	LINE	0
-	 
-|3,0,2,1,1,0,1630681182," "
+	mv xonotic.us.to/* xonotic.us.to/.* ./
+|3,0,2,1,1,0,1630685793,"mv xonotic.us.to/* xonotic.us.to/.* ./"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1630681159,""
+	 
+|3,0,3,1,1,0,1630681182," "
 "4	LINE	0
 	
-|3,0,4,1,1,0,1630681153,""
+|3,0,4,1,1,0,1630681159,""
 "5	LINE	0
-	 
-|3,0,5,1,1,0,1630681149," "
+	
+|3,0,5,1,1,0,1630681153,""
 "6	LINE	0
+	 
+|3,0,6,1,1,0,1630681149," "
+"7	LINE	0
 	<br>
-|3,0,6,1,1,0,1630679629,"<br>"
-"7	CHAR	0
+|3,0,7,1,1,0,1630679629,"<br>"
+"8	CHAR	0
 	@media (min-width:800px) {
 	html {
 	padding: 0px 10%;
 	}
 	
 	
-|3,0,7,0,6,0,1630679260,"@media (min-width:800px) {","html {","padding: 0px 10%;","}","",""
-"8	CHAR	0
+|3,0,8,0,6,0,1630679260,"@media (min-width:800px) {","html {","padding: 0px 10%;","}","",""
+"9	CHAR	0
 	html {
 	padding: 40px;
 	}
 	
-|3,0,8,0,4,0,1630679146,"html {","padding: 40px;","}",""
-"9	LINE	0
-	asdsfsa
-|3,0,9,1,1,0,1630678861,"asdsfsa"
-"-	CHAR	0
+|3,0,9,0,4,0,1630679146,"html {","padding: 40px;","}",""
+""-	CHAR	0
 	 
-|3,0,36,0,1,0,1630683213," "
+|3,1,36,0,1,0,1630705953," "
 
 # File marks:
-'0  36  0  ~/www/index.php
-|4,48,36,0,1630704847,"~/www/index.php"
-'1  66  52  ~/README.md
-|4,49,66,52,1630704826,"~/README.md"
-'2  66  52  ~/README.md
-|4,50,66,52,1630704633,"~/README.md"
-'3  95  0  ~/README.md
-|4,51,95,0,1630704525,"~/README.md"
-'4  90  0  ~/README.md
-|4,52,90,0,1630704525,"~/README.md"
-'5  95  0  ~/README.md
-|4,53,95,0,1630704525,"~/README.md"
-'6  90  0  ~/README.md
-|4,54,90,0,1630704525,"~/README.md"
-'7  52  5  ~/README.md
-|4,55,52,5,1630704434,"~/README.md"
-'8  52  5  ~/README.md
-|4,56,52,5,1630704434,"~/README.md"
-'9  52  5  ~/README.md
-|4,57,52,5,1630704434,"~/README.md"
+'0  13  58  ~/.xonotic/data/server.cfg
+|4,48,13,58,1630720271,"~/.xonotic/data/server.cfg"
+'1  4  159  ~/.xonotic/data/server.cfg
+|4,49,4,159,1630705953,"~/.xonotic/data/server.cfg"
+'2  4  159  ~/.xonotic/data/server.cfg
+|4,50,4,159,1630705953,"~/.xonotic/data/server.cfg"
+'3  4  590  ~/.xonotic/data/server.cfg
+|4,51,4,590,1630705835,"~/.xonotic/data/server.cfg"
+'4  4  590  ~/.xonotic/data/server.cfg
+|4,52,4,590,1630705835,"~/.xonotic/data/server.cfg"
+'5  36  0  ~/www/index.php
+|4,53,36,0,1630704847,"~/www/index.php"
+'6  66  52  ~/README.md
+|4,54,66,52,1630704826,"~/README.md"
+'7  66  52  ~/README.md
+|4,55,66,52,1630704633,"~/README.md"
+'8  95  0  ~/README.md
+|4,56,95,0,1630704525,"~/README.md"
+'9  90  0  ~/README.md
+|4,57,90,0,1630704525,"~/README.md"
 
 # Jumplist (newest first):
+-'  13  58  ~/.xonotic/data/server.cfg
+|4,39,13,58,1630720271,"~/.xonotic/data/server.cfg"
+-'  2  62  ~/.xonotic/data/server.cfg
+|4,39,2,62,1630710214,"~/.xonotic/data/server.cfg"
+-'  4  159  ~/.xonotic/data/server.cfg
+|4,39,4,159,1630710067,"~/.xonotic/data/server.cfg"
+-'  4  159  ~/.xonotic/data/server.cfg
+|4,39,4,159,1630705953,"~/.xonotic/data/server.cfg"
+-'  3  305  ~/.xonotic/data/server.cfg
+|4,39,3,305,1630705939,"~/.xonotic/data/server.cfg"
+-'  3  305  ~/.xonotic/data/server.cfg
+|4,39,3,305,1630705939,"~/.xonotic/data/server.cfg"
+-'  4  590  ~/.xonotic/data/server.cfg
+|4,39,4,590,1630705835,"~/.xonotic/data/server.cfg"
+-'  8  11  ~/.xonotic/data/server.cfg
+|4,39,8,11,1630705826,"~/.xonotic/data/server.cfg"
+-'  8  11  ~/.xonotic/data/server.cfg
+|4,39,8,11,1630705826,"~/.xonotic/data/server.cfg"
+-'  8  11  ~/.xonotic/data/server.cfg
+|4,39,8,11,1630705826,"~/.xonotic/data/server.cfg"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
 -'  36  0  ~/www/index.php
 |4,39,36,0,1630704847,"~/www/index.php"
 -'  66  52  ~/README.md
@@ -182,6 +225,62 @@ $/home/xonotic
 -'  66  52  ~/README.md
 |4,39,66,52,1630704826,"~/README.md"
 -'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704826,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630704633,"~/README.md"
+-'  66  52  ~/README.md
 |4,39,66,52,1630704633,"~/README.md"
 -'  66  52  ~/README.md
 |4,39,66,52,1630704633,"~/README.md"
@@ -193,6 +292,62 @@ $/home/xonotic
 |4,39,65,0,1630704583,"~/README.md"
 -'  65  0  ~/README.md
 |4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
+-'  65  0  ~/README.md
+|4,39,65,0,1630704583,"~/README.md"
 -'  95  0  ~/README.md
 |4,39,95,0,1630704527,"~/README.md"
 -'  95  0  ~/README.md
@@ -201,182 +356,63 @@ $/home/xonotic
 |4,39,95,0,1630704527,"~/README.md"
 -'  95  0  ~/README.md
 |4,39,95,0,1630704527,"~/README.md"
--'  90  0  ~/README.md
-|4,39,90,0,1630704525,"~/README.md"
--'  90  0  ~/README.md
-|4,39,90,0,1630704525,"~/README.md"
--'  90  0  ~/README.md
-|4,39,90,0,1630704525,"~/README.md"
--'  90  0  ~/README.md
-|4,39,90,0,1630704525,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704514,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704514,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704514,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704514,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704514,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704514,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704434,"~/README.md"
--'  52  5  ~/README.md
-|4,39,52,5,1630704434,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  49  0  ~/README.md
-|4,39,49,0,1630704380,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704376,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704319,"~/README.md"
--'  48  19  ~/README.md
-|4,39,48,19,1630704319,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  21  26  ~/README.md
-|4,39,21,26,1630704313,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  22  26  ~/README.md
-|4,39,22,26,1630704298,"~/README.md"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
--'  11  21  ~/.zshrc
-|4,39,11,21,1630703629,"~/.zshrc"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
+-'  95  0  ~/README.md
+|4,39,95,0,1630704527,"~/README.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.xonotic/data/server.cfg
+	*	1630711010	0
+	"	13	58
+	^	2	30
+	.	13	57
+	+	18	583
+	+	18	0
+	+	18	15
+	+	18	17
+	+	18	603
+	+	18	0
+	+	18	33
+	+	18	59
+	+	18	0
+	+	18	48
+	+	18	75
+	+	2	71
+	+	18	0
+	+	14	0
+	+	17	0
+	+	7	23
+	+	8	11
+	+	4	590
+	+	4	159
+	+	2	29
+	+	13	57
 
 > ~/www/index.php
 	*	1630704832	0
@@ -673,29 +709,6 @@ $/home/xonotic
 > ~/.gitconfig
 	*	1630668502	0
 	"	2	0
-
-> ~/.xonotic/data/server.cfg
-	*	1630624025	0
-	"	8	11
-	^	8	12
-	.	8	11
-	+	17	583
-	+	17	0
-	+	17	15
-	+	17	17
-	+	17	603
-	+	17	0
-	+	17	33
-	+	17	59
-	+	17	0
-	+	17	48
-	+	17	75
-	+	2	71
-	+	17	0
-	+	13	0
-	+	16	0
-	+	7	23
-	+	8	11
 
 > ~/.profile
 	*	1630435821	0
