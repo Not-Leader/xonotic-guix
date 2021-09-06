@@ -20,10 +20,10 @@
 $/home/xonotic
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1630828579,,"wq"
 :w
 |2,0,1630791806,,"w"
-:wq
-|2,0,1630761826,,"wq"
 :q
 |2,0,1630704847,,"q"
 ::q
@@ -166,34 +166,46 @@ $/home/xonotic
 |3,1,36,0,1,0,1630705953," "
 
 # File marks:
-'0  62  33  ~/README.md
-|4,48,62,33,1630799725,"~/README.md"
-'1  16  0  ~/.xonotic/data/server.cfg
-|4,49,16,0,1630761826,"~/.xonotic/data/server.cfg"
-'2  13  58  ~/.xonotic/data/server.cfg
-|4,50,13,58,1630720271,"~/.xonotic/data/server.cfg"
-'3  13  58  ~/.xonotic/data/server.cfg
-|4,51,13,58,1630720271,"~/.xonotic/data/server.cfg"
-'4  4  159  ~/.xonotic/data/server.cfg
-|4,52,4,159,1630705953,"~/.xonotic/data/server.cfg"
-'5  4  159  ~/.xonotic/data/server.cfg
-|4,53,4,159,1630705953,"~/.xonotic/data/server.cfg"
-'6  4  159  ~/.xonotic/data/server.cfg
-|4,54,4,159,1630705953,"~/.xonotic/data/server.cfg"
-'7  4  159  ~/.xonotic/data/server.cfg
-|4,55,4,159,1630705953,"~/.xonotic/data/server.cfg"
-'8  4  590  ~/.xonotic/data/server.cfg
-|4,56,4,590,1630705835,"~/.xonotic/data/server.cfg"
-'9  4  590  ~/.xonotic/data/server.cfg
-|4,57,4,590,1630705835,"~/.xonotic/data/server.cfg"
+'0  19  0  ~/.xonotic/data/server.cfg
+|4,48,19,0,1630828579,"~/.xonotic/data/server.cfg"
+'1  62  33  ~/README.md
+|4,49,62,33,1630799725,"~/README.md"
+'2  16  0  ~/.xonotic/data/server.cfg
+|4,50,16,0,1630761826,"~/.xonotic/data/server.cfg"
+'3  16  0  ~/.xonotic/data/server.cfg
+|4,51,16,0,1630761826,"~/.xonotic/data/server.cfg"
+'4  13  58  ~/.xonotic/data/server.cfg
+|4,52,13,58,1630720271,"~/.xonotic/data/server.cfg"
+'5  13  58  ~/.xonotic/data/server.cfg
+|4,53,13,58,1630720271,"~/.xonotic/data/server.cfg"
+'6  13  58  ~/.xonotic/data/server.cfg
+|4,54,13,58,1630720271,"~/.xonotic/data/server.cfg"
+'7  13  58  ~/.xonotic/data/server.cfg
+|4,55,13,58,1630720271,"~/.xonotic/data/server.cfg"
+'8  4  159  ~/.xonotic/data/server.cfg
+|4,56,4,159,1630705953,"~/.xonotic/data/server.cfg"
+'9  4  159  ~/.xonotic/data/server.cfg
+|4,57,4,159,1630705953,"~/.xonotic/data/server.cfg"
 
 # Jumplist (newest first):
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1630828579,"~/.xonotic/data/server.cfg"
+-'  16  0  ~/.xonotic/data/server.cfg
+|4,39,16,0,1630828575,"~/.xonotic/data/server.cfg"
+-'  62  33  ~/README.md
+|4,39,62,33,1630799725,"~/README.md"
 -'  62  33  ~/README.md
 |4,39,62,33,1630799725,"~/README.md"
 -'  23  0  ~/README.md
 |4,39,23,0,1630791796,"~/README.md"
+-'  23  0  ~/README.md
+|4,39,23,0,1630791796,"~/README.md"
 -'  67  0  ~/README.md
 |4,39,67,0,1630791726,"~/README.md"
+-'  67  0  ~/README.md
+|4,39,67,0,1630791726,"~/README.md"
+-'  66  52  ~/README.md
+|4,39,66,52,1630791715,"~/README.md"
 -'  66  52  ~/README.md
 |4,39,66,52,1630791715,"~/README.md"
 -'  16  0  ~/.xonotic/data/server.cfg
@@ -204,6 +216,8 @@ $/home/xonotic
 |4,39,13,49,1630761821,"~/.xonotic/data/server.cfg"
 -'  13  49  ~/.xonotic/data/server.cfg
 |4,39,13,49,1630761821,"~/.xonotic/data/server.cfg"
+-'  13  49  ~/.xonotic/data/server.cfg
+|4,39,13,49,1630761821,"~/.xonotic/data/server.cfg"
 -'  13  58  ~/.xonotic/data/server.cfg
 |4,39,13,58,1630720271,"~/.xonotic/data/server.cfg"
 -'  13  58  ~/.xonotic/data/server.cfg
@@ -216,6 +230,10 @@ $/home/xonotic
 |4,39,2,62,1630710214,"~/.xonotic/data/server.cfg"
 -'  2  62  ~/.xonotic/data/server.cfg
 |4,39,2,62,1630710214,"~/.xonotic/data/server.cfg"
+-'  2  62  ~/.xonotic/data/server.cfg
+|4,39,2,62,1630710214,"~/.xonotic/data/server.cfg"
+-'  4  159  ~/.xonotic/data/server.cfg
+|4,39,4,159,1630710067,"~/.xonotic/data/server.cfg"
 -'  4  159  ~/.xonotic/data/server.cfg
 |4,39,4,159,1630710067,"~/.xonotic/data/server.cfg"
 -'  4  159  ~/.xonotic/data/server.cfg
@@ -228,6 +246,8 @@ $/home/xonotic
 |4,39,4,159,1630705953,"~/.xonotic/data/server.cfg"
 -'  4  159  ~/.xonotic/data/server.cfg
 |4,39,4,159,1630705953,"~/.xonotic/data/server.cfg"
+-'  3  305  ~/.xonotic/data/server.cfg
+|4,39,3,305,1630705939,"~/.xonotic/data/server.cfg"
 -'  3  305  ~/.xonotic/data/server.cfg
 |4,39,3,305,1630705939,"~/.xonotic/data/server.cfg"
 -'  3  305  ~/.xonotic/data/server.cfg
@@ -260,6 +280,8 @@ $/home/xonotic
 |4,39,8,11,1630705826,"~/.xonotic/data/server.cfg"
 -'  8  11  ~/.xonotic/data/server.cfg
 |4,39,8,11,1630705826,"~/.xonotic/data/server.cfg"
+-'  8  11  ~/.xonotic/data/server.cfg
+|4,39,8,11,1630705826,"~/.xonotic/data/server.cfg"
 -'  36  0  ~/www/index.php
 |4,39,36,0,1630704847,"~/www/index.php"
 -'  36  0  ~/www/index.php
@@ -324,72 +346,79 @@ $/home/xonotic
 |4,39,36,0,1630704847,"~/www/index.php"
 -'  36  0  ~/www/index.php
 |4,39,36,0,1630704847,"~/www/index.php"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
--'  66  52  ~/README.md
-|4,39,66,52,1630704826,"~/README.md"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
+-'  36  0  ~/www/index.php
+|4,39,36,0,1630704847,"~/www/index.php"
 
 # History of marks within files (newest to oldest):
+
+> ~/.xonotic/data/server.cfg
+	*	1630828578	0
+	"	19	0
+	^	19	0
+	.	18	0
+	+	22	583
+	+	22	0
+	+	22	15
+	+	22	17
+	+	22	603
+	+	22	0
+	+	22	33
+	+	22	59
+	+	22	0
+	+	22	48
+	+	22	75
+	+	2	71
+	+	22	0
+	+	14	0
+	+	21	0
+	+	7	23
+	+	8	11
+	+	4	590
+	+	4	159
+	+	2	29
+	+	13	57
+	+	15	0
+	+	18	0
 
 > ~/README.md
 	*	1630791806	0
@@ -428,34 +457,6 @@ $/home/xonotic
 	+	22	63
 	+	22	60
 	+	62	33
-
-> ~/.xonotic/data/server.cfg
-	*	1630761826	0
-	"	16	0
-	^	16	0
-	.	15	0
-	+	19	583
-	+	19	0
-	+	19	15
-	+	19	17
-	+	19	603
-	+	19	0
-	+	19	33
-	+	19	59
-	+	19	0
-	+	19	48
-	+	19	75
-	+	2	71
-	+	19	0
-	+	14	0
-	+	18	0
-	+	7	23
-	+	8	11
-	+	4	590
-	+	4	159
-	+	2	29
-	+	13	57
-	+	15	0
 
 > ~/www/index.php
 	*	1630704832	0
