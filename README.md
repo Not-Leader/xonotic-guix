@@ -50,6 +50,13 @@ git clone --depth=1 https://github.com/ballerburg9005/xonotic.us.to
 rsync -ra xonotic.us.to/ ./
 chmod 700 /home/xonotic/.xonotic/data/data
 rm -rf xonotic.us.to
+
+# IMPORTANT: Whenever you download a new Xonotic ZIP, you need to repeat this step!
+rm /home/xonotic/.xonotic/data/csprogs-xonotic-autobuild.pk3
+unzip /home/xonotic/Xonotic/data/xonotic-20210827-data.pk3 'csprogs.*'
+echo "csprogs" > csprogs.serverpackage
+zip /home/xonotic/.xonotic/data/csprogs-xonotic-autobuild.pk3 csprogs.*
+rm csprogs.*
 ```
 <br>
 

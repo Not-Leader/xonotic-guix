@@ -3,6 +3,7 @@
 .xonotic/key_0*
 .xonotic/lock
 .xonotic/data/secret.cfg
+.xonotic/data/csprogs-xonotic-autobuild.pk3
 .zcompdump*
 .wget*
 .profile
