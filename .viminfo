@@ -20,10 +20,10 @@
 $/home/xonotic
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1631966483,,"w"
 :q
 |2,0,1631806623,,"q"
-:w
-|2,0,1631216217,,"w"
 :wq
 |2,0,1631111102,,"wq"
 :q!
@@ -157,28 +157,34 @@ $/home/xonotic
 |3,0,36,0,1,0,1630705953," "
 
 # File marks:
-'0  6  0  ~/.gitignore
-|4,48,6,0,1631806623,"~/.gitignore"
-'1  16  15  ~/README.md
-|4,49,16,15,1631216220,"~/README.md"
-'2  59  67  ~/README.md
-|4,50,59,67,1631111102,"~/README.md"
-'3  56  67  ~/README.md
-|4,51,56,67,1631111102,"~/README.md"
-'4  6  0  ~/.gitignore
-|4,52,6,0,1631111076,"~/.gitignore"
-'5  6  0  ~/.gitignore
-|4,53,6,0,1631111060,"~/.gitignore"
-'6  6  0  ~/.gitignore
-|4,54,6,0,1631111060,"~/.gitignore"
-'7  54  57  ~/README.md
-|4,55,54,57,1631111047,"~/README.md"
-'8  54  57  ~/README.md
-|4,56,54,57,1631111047,"~/README.md"
-'9  54  53  ~/README.md
-|4,57,54,53,1631111047,"~/README.md"
+'0  6  96  ~/README.md
+|4,48,6,96,1631974366,"~/README.md"
+'1  6  0  ~/.gitignore
+|4,49,6,0,1631806623,"~/.gitignore"
+'2  16  15  ~/README.md
+|4,50,16,15,1631216220,"~/README.md"
+'3  16  15  ~/README.md
+|4,51,16,15,1631216220,"~/README.md"
+'4  59  67  ~/README.md
+|4,52,59,67,1631111102,"~/README.md"
+'5  56  67  ~/README.md
+|4,53,56,67,1631111102,"~/README.md"
+'6  59  67  ~/README.md
+|4,54,59,67,1631111102,"~/README.md"
+'7  56  67  ~/README.md
+|4,55,56,67,1631111102,"~/README.md"
+'8  6  0  ~/.gitignore
+|4,56,6,0,1631111076,"~/.gitignore"
+'9  6  0  ~/.gitignore
+|4,57,6,0,1631111060,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  6  96  ~/README.md
+|4,39,6,96,1631974366,"~/README.md"
+-'  16  15  ~/README.md
+|4,39,16,15,1631966313,"~/README.md"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631806623,"~/.gitignore"
 -'  6  0  ~/.gitignore
 |4,39,6,0,1631806623,"~/.gitignore"
 -'  16  15  ~/README.md
@@ -189,6 +195,10 @@ $/home/xonotic
 |4,39,58,41,1631216210,"~/README.md"
 -'  58  41  ~/README.md
 |4,39,58,41,1631216210,"~/README.md"
+-'  58  41  ~/README.md
+|4,39,58,41,1631216210,"~/README.md"
+-'  59  67  ~/README.md
+|4,39,59,67,1631215881,"~/README.md"
 -'  59  67  ~/README.md
 |4,39,59,67,1631215881,"~/README.md"
 -'  59  67  ~/README.md
@@ -197,6 +207,10 @@ $/home/xonotic
 |4,39,56,67,1631111102,"~/README.md"
 -'  56  67  ~/README.md
 |4,39,56,67,1631111102,"~/README.md"
+-'  56  67  ~/README.md
+|4,39,56,67,1631111102,"~/README.md"
+-'  54  57  ~/README.md
+|4,39,54,57,1631111077,"~/README.md"
 -'  54  57  ~/README.md
 |4,39,54,57,1631111077,"~/README.md"
 -'  54  53  ~/README.md
@@ -214,6 +228,18 @@ $/home/xonotic
 -'  6  0  ~/.gitignore
 |4,39,6,0,1631111076,"~/.gitignore"
 -'  6  0  ~/.gitignore
+|4,39,6,0,1631111076,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111076,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111076,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111076,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111060,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111060,"~/.gitignore"
+-'  6  0  ~/.gitignore
 |4,39,6,0,1631111060,"~/.gitignore"
 -'  6  0  ~/.gitignore
 |4,39,6,0,1631111060,"~/.gitignore"
@@ -221,6 +247,28 @@ $/home/xonotic
 |4,39,6,0,1631111060,"~/.gitignore"
 -'  6  0  ~/.gitignore
 |4,39,6,0,1631111060,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111060,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1631111060,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
+-'  10  7  ~/.gitignore
+|4,39,10,7,1631111051,"~/.gitignore"
 -'  10  7  ~/.gitignore
 |4,39,10,7,1631111051,"~/.gitignore"
 -'  10  7  ~/.gitignore
@@ -279,56 +327,8 @@ $/home/xonotic
 |4,39,50,26,1631109760,"~/README.md"
 -'  50  26  ~/README.md
 |4,39,50,26,1631109760,"~/README.md"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
--'  19  0  ~/.xonotic/data/server.cfg
-|4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
+-'  50  26  ~/README.md
+|4,39,50,26,1631109760,"~/README.md"
 -'  19  0  ~/.xonotic/data/server.cfg
 |4,39,19,0,1631109759,"~/.xonotic/data/server.cfg"
 -'  19  0  ~/.xonotic/data/server.cfg
@@ -382,30 +382,11 @@ $/home/xonotic
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	*	1631806620	0
-	"	6	0
-	^	6	0
-	.	6	0
-	+	1	10
-	+	2	18
-	+	3	19
-	+	5	24
-	+	11	11
-	+	12	6
-	+	7	10
-	+	3	15
-	+	4	15
-	+	4	12
-	+	11	0
-	+	10	7
-	+	6	0
-
 > ~/README.md
-	*	1631216217	0
-	"	16	15
-	^	16	16
-	.	16	15
+	*	1631966483	0
+	"	6	96
+	^	6	97
+	.	6	96
 	+	9	0
 	+	97	16
 	+	97	15
@@ -464,6 +445,28 @@ $/home/xonotic
 	+	56	122
 	+	59	41
 	+	16	15
+	+	12	12
+	+	13	0
+	+	6	96
+
+> ~/.gitignore
+	*	1631806620	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	1	10
+	+	2	18
+	+	3	19
+	+	5	24
+	+	11	11
+	+	12	6
+	+	7	10
+	+	3	15
+	+	4	15
+	+	4	12
+	+	11	0
+	+	10	7
+	+	6	0
 
 > ~/.xonotic/data/server.cfg
 	*	1631108532	0

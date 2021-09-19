@@ -3,7 +3,7 @@ Summary
 
 I created a backup of my entire Xonotic server config, including all pk3 files, [on Github](https://github.com/ballerburg9005/xonotic.us.to).
 
-It includes complete instructions how you can set up this server by yourself. 
+It includes complete instructions how you can set up this server by yourself, using a new (clean) VPS.
  
 My server also displays those instructions on http://xonotic.us.to .
 <p><br>
