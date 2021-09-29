@@ -94,6 +94,12 @@ systemctl start lighttpd xonotic
 ```
 <br><p>
 
+Probably smart to put a restart into crontab:
+```
+0 7 * * * systemctl restart xonotic
+```
+<br><p>
+
 Useful commands
 ===============
 If you download new maps, then this gives you an updated list (paste it in server.cfg):
