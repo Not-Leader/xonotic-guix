@@ -57,7 +57,8 @@ rm -rf xonotic.us.to
 Special speedup for csprogs download. If you do this, you need to repeat it each time you update your Xonotic installation!
 ```
 unzip /home/xonotic/Xonotic/data/xonotic-*-data.pk3 'csprogs.*'
-echo "csprogs" > csprogs.serverpackage
+touch csprogs
+zip csprogs.serverpackage csprogs
 zip /home/xonotic/.xonotic/data/csprogs-xonotic-autobuild.pk3 csprogs.*
 rm csprogs.*
 ```

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/apt
+~MSle0~/csprogs
 
 # Last Substitute Search Pattern:
 ~MSle0&\$HOME
@@ -20,10 +20,10 @@
 $/home/xonotic
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1633562535,,"wq"
 :q
 |2,0,1633562491,,"q"
-:wq
-|2,0,1633562158,,"wq"
 :$
 |2,0,1633561901,,"$"
 :q:q
@@ -56,6 +56,8 @@ $/home/xonotic
 |2,0,1630430656,,"eqw"
 
 # Search String History (newest to oldest):
+?/csprogs
+|2,1,1633562499,47,"csprogs"
 ?/apt
 |2,1,1631216210,47,"apt"
 ?/IMPORT
@@ -130,67 +132,81 @@ $/home/xonotic
 	<br><p>
 |3,0,0,1,1,0,1632931297,"<br><p>"
 ""1	LINE	0
-	: 1633561889:0;echo 'rcon_password "AssAndPinion---"' >  /home/xonotic/.xonotic/data/secret.cfg 
-|3,1,1,1,1,0,1633561903,": 1633561889:0;echo 'rcon_password \"AssAndPinion---\"' >  /home/xonotic/.xonotic/data/secret.cfg "
+	echo "csprogs" > csprogs.serverpackage
+|3,1,1,1,1,0,1633562522,"echo \"csprogs\" > csprogs.serverpackage"
 "2	LINE	0
-	TZ=CEST 
-|3,0,2,1,1,0,1632931448,"TZ=CEST "
+	: 1633561889:0;echo 'rcon_password "AssAndPinion---"' >  /home/xonotic/.xonotic/data/secret.cfg 
+|3,0,2,1,1,0,1633561903,": 1633561889:0;echo 'rcon_password \"AssAndPinion---\"' >  /home/xonotic/.xonotic/data/secret.cfg "
 "3	LINE	0
-	# CEST = Eurpe 
-|3,0,3,1,1,0,1632931448,"# CEST = Eurpe "
+	TZ=CEST 
+|3,0,3,1,1,0,1632931448,"TZ=CEST "
 "4	LINE	0
-	IMPORTANT: Whenever you download a new Xonotic ZIP, you need to repeat this step!
-|3,0,4,1,1,0,1631215895,"IMPORTANT: Whenever you download a new Xonotic ZIP, you need to repeat this step!"
+	# CEST = Eurpe 
+|3,0,4,1,1,0,1632931448,"# CEST = Eurpe "
 "5	LINE	0
-	touch csprogs.donothing
-|3,0,5,1,1,0,1631110906,"touch csprogs.donothing"
+	IMPORTANT: Whenever you download a new Xonotic ZIP, you need to repeat this step!
+|3,0,5,1,1,0,1631215895,"IMPORTANT: Whenever you download a new Xonotic ZIP, you need to repeat this step!"
 "6	LINE	0
-	echo "set csqc_progname csprogs-xonotic-autobuild.dat" > autoexec/csprogs-xonotic-autobuild.cfg
-|3,0,6,1,1,0,1631110738,"echo \"set csqc_progname csprogs-xonotic-autobuild.dat\" > autoexec/csprogs-xonotic-autobuild.cfg"
+	touch csprogs.donothing
+|3,0,6,1,1,0,1631110906,"touch csprogs.donothing"
 "7	LINE	0
-	mkdir autoexec
-|3,0,7,1,1,0,1631110737,"mkdir autoexec"
+	echo "set csqc_progname csprogs-xonotic-autobuild.dat" > autoexec/csprogs-xonotic-autobuild.cfg
+|3,0,7,1,1,0,1631110738,"echo \"set csqc_progname csprogs-xonotic-autobuild.dat\" > autoexec/csprogs-xonotic-autobuild.cfg"
 "8	LINE	0
-	mv csprogs.dlno csprogs-xonotic-autobuild.lno
-|3,0,8,1,1,0,1631110736,"mv csprogs.dlno csprogs-xonotic-autobuild.lno"
+	mkdir autoexec
+|3,0,8,1,1,0,1631110737,"mkdir autoexec"
 "9	LINE	0
-	mv csprogs.dat csprogs-xonotic-autobuild.dat
-|3,0,9,1,1,0,1631110736,"mv csprogs.dat csprogs-xonotic-autobuild.dat"
+	mv csprogs.dlno csprogs-xonotic-autobuild.lno
+|3,0,9,1,1,0,1631110736,"mv csprogs.dlno csprogs-xonotic-autobuild.lno"
 "-	CHAR	0
 	 
 |3,0,36,0,1,0,1630705953," "
 
 # File marks:
-'0  107  2  ~/README.md
-|4,48,107,2,1633562491,"~/README.md"
-'1  7  69  ~/.git/config
-|4,49,7,69,1633562158,"~/.git/config"
-'2  479  0  ~/.zsh_history
-|4,50,479,0,1633561905,"~/.zsh_history"
-'3  19  0  ~/.xonotic/data/server.cfg
-|4,51,19,0,1633561782,"~/.xonotic/data/server.cfg"
-'4  99  2  ~/README.md
-|4,52,99,2,1632931497,"~/README.md"
-'5  99  2  ~/README.md
-|4,53,99,2,1632931497,"~/README.md"
-'6  24  188  /tmp/crontab.9hlG98/crontab
-|4,54,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
-'7  6  96  ~/README.md
-|4,55,6,96,1631974366,"~/README.md"
-'8  6  96  ~/README.md
-|4,56,6,96,1631974366,"~/README.md"
-'9  6  96  ~/README.md
-|4,57,6,96,1631974366,"~/README.md"
+'0  61  0  ~/README.md
+|4,48,61,0,1633562535,"~/README.md"
+'1  108  2  ~/README.md
+|4,49,108,2,1633562491,"~/README.md"
+'2  107  2  ~/README.md
+|4,50,107,2,1633562491,"~/README.md"
+'3  7  69  ~/.git/config
+|4,51,7,69,1633562158,"~/.git/config"
+'4  479  0  ~/.zsh_history
+|4,52,479,0,1633561905,"~/.zsh_history"
+'5  19  0  ~/.xonotic/data/server.cfg
+|4,53,19,0,1633561782,"~/.xonotic/data/server.cfg"
+'6  100  2  ~/README.md
+|4,54,100,2,1632931497,"~/README.md"
+'7  100  2  ~/README.md
+|4,55,100,2,1632931497,"~/README.md"
+'8  99  2  ~/README.md
+|4,56,99,2,1632931497,"~/README.md"
+'9  99  2  ~/README.md
+|4,57,99,2,1632931497,"~/README.md"
 
 # Jumplist (newest first):
+-'  61  0  ~/README.md
+|4,39,61,0,1633562535,"~/README.md"
+-'  57  20  ~/README.md
+|4,39,57,20,1633562501,"~/README.md"
+-'  136  0  ~/README.md
+|4,39,136,0,1633562499,"~/README.md"
+-'  108  2  ~/README.md
+|4,39,108,2,1633562495,"~/README.md"
 -'  107  2  ~/README.md
 |4,39,107,2,1633562491,"~/README.md"
+-'  100  2  ~/README.md
+|4,39,100,2,1633562487,"~/README.md"
 -'  99  2  ~/README.md
 |4,39,99,2,1633562487,"~/README.md"
 -'  7  69  ~/.git/config
 |4,39,7,69,1633562158,"~/.git/config"
 -'  7  69  ~/.git/config
 |4,39,7,69,1633562158,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1633562158,"~/.git/config"
+-'  7  69  ~/.git/config
+|4,39,7,69,1633562158,"~/.git/config"
 -'  479  0  ~/.zsh_history
 |4,39,479,0,1633561905,"~/.zsh_history"
 -'  479  0  ~/.zsh_history
@@ -199,6 +215,22 @@ $/home/xonotic
 |4,39,479,0,1633561905,"~/.zsh_history"
 -'  479  0  ~/.zsh_history
 |4,39,479,0,1633561905,"~/.zsh_history"
+-'  479  0  ~/.zsh_history
+|4,39,479,0,1633561905,"~/.zsh_history"
+-'  479  0  ~/.zsh_history
+|4,39,479,0,1633561905,"~/.zsh_history"
+-'  479  0  ~/.zsh_history
+|4,39,479,0,1633561905,"~/.zsh_history"
+-'  479  0  ~/.zsh_history
+|4,39,479,0,1633561905,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1633561899,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1633561899,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1633561899,"~/.zsh_history"
+-'  272  22  ~/.zsh_history
+|4,39,272,22,1633561899,"~/.zsh_history"
 -'  272  22  ~/.zsh_history
 |4,39,272,22,1633561899,"~/.zsh_history"
 -'  272  22  ~/.zsh_history
@@ -223,6 +255,22 @@ $/home/xonotic
 |4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
 -'  19  0  ~/.xonotic/data/server.cfg
 |4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
+-'  19  0  ~/.xonotic/data/server.cfg
+|4,39,19,0,1633561782,"~/.xonotic/data/server.cfg"
 -'  99  2  ~/README.md
 |4,39,99,2,1632931497,"~/README.md"
 -'  99  2  ~/README.md
@@ -257,6 +305,8 @@ $/home/xonotic
 |4,39,6,96,1632931241,"~/README.md"
 -'  6  96  ~/README.md
 |4,39,6,96,1632931241,"~/README.md"
+-'  6  96  ~/README.md
+|4,39,6,96,1632931241,"~/README.md"
 -'  24  188  /tmp/crontab.9hlG98/crontab
 |4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
 -'  24  188  /tmp/crontab.9hlG98/crontab
@@ -321,128 +371,79 @@ $/home/xonotic
 |4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
 -'  24  188  /tmp/crontab.9hlG98/crontab
 |4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
--'  1  0  /tmp/crontab.9hlG98/crontab
-|4,39,1,0,1632931216,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
+-'  24  188  /tmp/crontab.9hlG98/crontab
+|4,39,24,188,1632931235,"/tmp/crontab.9hlG98/crontab"
 
 # History of marks within files (newest to oldest):
 
 > ~/README.md
-	*	1633562490	0
-	"	107	2
-	^	99	3
-	.	99	0
+	*	1633562530	0
+	"	61	0
+	.	62	0
 	+	9	0
-	+	103	16
-	+	103	15
-	+	106	0
-	+	112	0
-	+	118	0
-	+	122	6
-	+	126	0
-	+	103	0
+	+	104	16
+	+	104	15
+	+	107	0
+	+	113	0
+	+	119	0
+	+	123	6
+	+	127	0
+	+	104	0
 	+	10	0
-	+	103	0
-	+	123	0
-	+	131	0
+	+	104	0
+	+	124	0
 	+	132	0
-	+	145	169
-	+	145	163
-	+	112	46
-	+	118	74
+	+	133	0
+	+	146	169
+	+	146	163
+	+	113	46
+	+	119	74
 	+	16	82
 	+	50	26
 	+	48	19
-	+	63	5
-	+	83	0
-	+	80	2
-	+	79	41
-	+	77	35
-	+	78	0
-	+	75	3
-	+	77	53
+	+	64	5
+	+	84	0
+	+	81	2
+	+	80	41
+	+	78	35
+	+	79	0
+	+	76	3
+	+	78	53
 	+	22	63
 	+	22	60
-	+	73	33
+	+	74	33
 	+	52	0
-	+	64	0
-	+	64	10
-	+	64	100
-	+	64	0
+	+	65	0
+	+	65	10
+	+	65	100
+	+	65	0
 	+	50	0
 	+	55	68
 	+	54	85
-	+	61	14
-	+	61	90
-	+	61	44
-	+	61	80
-	+	61	61
+	+	62	14
+	+	62	90
+	+	62	44
+	+	62	80
+	+	62	61
 	+	60	25
 	+	60	22
 	+	60	12
 	+	55	2
 	+	54	58
-	+	62	11
-	+	61	69
+	+	63	11
+	+	62	69
 	+	59	67
 	+	55	0
 	+	57	2
@@ -452,17 +453,20 @@ $/home/xonotic
 	+	12	12
 	+	13	0
 	+	6	96
-	+	97	0
-	+	101	0
-	+	100	2
-	+	101	7
-	+	97	44
-	+	99	35
-	+	97	44
-	+	99	8
-	+	99	0
-	+	97	44
-	+	99	0
+	+	98	0
+	+	102	0
+	+	101	2
+	+	102	7
+	+	98	44
+	+	100	35
+	+	98	44
+	+	100	8
+	+	100	0
+	+	98	44
+	+	100	0
+	+	60	13
+	+	61	32
+	+	62	0
 
 > ~/.git/config
 	*	1633562158	0
