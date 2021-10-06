@@ -48,6 +48,7 @@ Download the maps and server config from my github repository:
 git clone --depth=1 https://github.com/ballerburg9005/xonotic.us.to
  
 rsync -ra xonotic.us.to/ ./
+mkdir /home/xonotic/.xonotic/data/data
 chmod 700 /home/xonotic/.xonotic/data/data
 rm -rf xonotic.us.to
 ```
